@@ -1,0 +1,6 @@
+framework module ZAWSDKIOSFramework {
+  umbrella header "ZAWSDKIOSFramework.h"
+  export *
+
+  module * { export * }
+}
