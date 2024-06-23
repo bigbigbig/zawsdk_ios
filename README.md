@@ -148,6 +148,8 @@ end
 <string>CLIENT-TOKEN</string>
 <key>FacebookDisplayName</key>
 <string>APP-NAME</string>
+<key>FacebookAdvertiserIDCollectionEnabled</key>
+<true/>
 ```
 在 [CFBundleURLSchemes] 键内的 <array><string> 中，将 APP-ID 替换为您的应用编号。<br>
 在 FacebookAppID 键内的 <string> 中，将 APP-ID 替换为您的应用编号。<br>
@@ -177,7 +179,26 @@ end
 搜索 iCloud 功能，并勾选，在 Services 中勾选 Key-value storage<br>
 搜索 In-App Purchase 功能，并勾选<br>
 搜索 Sign in with Apple 功能，并勾选<br>
-
+#### Appsflyer 配置
+打开项目配置：在左侧的树状视图中点击项目名称 > 在Targets中选择您的应用 > 选择info标签页<br>
+添加 NSAdvertisingAttributionReportEndpoint 键，设置值为 https://appsflyer-skadnetwork.com/.
+#### 项目其它配置
+1、打开项目配置：在左侧的树状视图中点击项目名称 > 在Targets中选择您的应用 > 选择Build Settings标签页<br>
+在 Build Options 选项中 将 User Script Sandboxing 设置为 No<br>
+2、打开项目配置：在左侧的树状视图中点击项目名称 > 在Targets中选择您的应用 > 选择info标签页<br>
+添加用户追踪声明键值
+```
+<key>NSUserTrackingUsageDescription</key>
+<string>This identifier will be used to deliver personalized ads to you.</string>
+```
+添加网络访问声明键值
+```
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
+```
 ## Author
 
 Mingsheng Zhang, 1046724509@qq.com
