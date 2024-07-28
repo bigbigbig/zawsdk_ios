@@ -12,17 +12,9 @@
 		<data>
 		Z5diDfyJ8Q98I5JWKtVGWEvkXII=
 		</data>
-		<key>Base.lproj/ZAWBindViewController.nib</key>
-		<data>
-		5w59vjoJbuJk9MKoaF8igDgeNOM=
-		</data>
-		<key>Base.lproj/ZAWLoginViewController.nib</key>
-		<data>
-		a8UNwSsaickwlOzY8Z9OtCwTpIs=
-		</data>
 		<key>Headers/ZAWLoginModel.h</key>
 		<data>
-		CaJiHVJigRz2CTXuvQIAM8GGALI=
+		AHJgWdQFHC+zPw4OYg8/TzX3iuc=
 		</data>
 		<key>Headers/ZAWPayModel.h</key>
 		<data>
@@ -30,7 +22,7 @@
 		</data>
 		<key>Headers/ZAWSDK.h</key>
 		<data>
-		uZ1NXvz2xiuhmfepT60zRNQsq9M=
+		6L5Y+sZ/EcBpkwr2JCP2ROLPfEI=
 		</data>
 		<key>Headers/ZAWSDKIOSFramework.h</key>
 		<data>
@@ -52,24 +44,6 @@
 		<data>
 		9Aafd9V2l0oze+N94QbPyp/ejIw=
 		</data>
-		<key>th.lproj/ZAWBindViewController.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nIQoRvkTMokPgQNSAaP0NHjig6k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>th.lproj/ZAWLoginViewController.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xeWP5vs9bWxYQ88HgOwfmtK4q/A=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -95,37 +69,15 @@
 			6xKWyp82bfdpIC+qSEbhTjD40SP5BWjupWVxQg5FQkY=
 			</data>
 		</dict>
-		<key>Base.lproj/ZAWBindViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5w59vjoJbuJk9MKoaF8igDgeNOM=
-			</data>
-			<key>hash2</key>
-			<data>
-			WRUK1LHAD3dbjGcUFAAMW59+4iyy/W+73miaCTdzLRE=
-			</data>
-		</dict>
-		<key>Base.lproj/ZAWLoginViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			a8UNwSsaickwlOzY8Z9OtCwTpIs=
-			</data>
-			<key>hash2</key>
-			<data>
-			oXjNy55FCiFLbTbdpMgaGSI+Nsk8cbZlD+HeXIgAd/g=
-			</data>
-		</dict>
 		<key>Headers/ZAWLoginModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CaJiHVJigRz2CTXuvQIAM8GGALI=
+			AHJgWdQFHC+zPw4OYg8/TzX3iuc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VeJURklITaKqP7nxGJ7tK0FRjvJaz8npgipgtiiqze8=
+			ileg5UzygCTWvunrLO/bp78FPGxcJURRpWMrYg8DbXY=
 			</data>
 		</dict>
 		<key>Headers/ZAWPayModel.h</key>
@@ -143,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uZ1NXvz2xiuhmfepT60zRNQsq9M=
+			6L5Y+sZ/EcBpkwr2JCP2ROLPfEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			N40VjFdCiNiKEYyne1uEiYoar7vHIp2cU9ilDCPajrk=
+			4KtE3+ee4XnIFY85Ox1KCsMNOONkzT+MSHDBRBKB7d4=
 			</data>
 		</dict>
 		<key>Headers/ZAWSDKIOSFramework.h</key>
@@ -193,32 +145,6 @@
 			<data>
 			MsWmGV0aqdJK3shReWoDx1wxlqx+Du0hpTfe7x5UKGw=
 			</data>
-		</dict>
-		<key>th.lproj/ZAWBindViewController.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nIQoRvkTMokPgQNSAaP0NHjig6k=
-			</data>
-			<key>hash2</key>
-			<data>
-			h2m/V0ZrUAF2eIF7xNSvOFELWnfVM9B9lr6BYFsUpe0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>th.lproj/ZAWLoginViewController.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xeWP5vs9bWxYQ88HgOwfmtK4q/A=
-			</data>
-			<key>hash2</key>
-			<data>
-			yNGcv57aJ5QXv52z6XFxal6PaqskraSLGmdS2eHvbTU=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

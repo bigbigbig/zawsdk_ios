@@ -984,6 +984,8 @@ PODS:
   - FBSDKCoreKit_Basics (17.0.2)
   - FBSDKLoginKit (17.0.2):
     - FBSDKCoreKit (= 17.0.2)
+  - FBSDKShareKit (17.0.2):
+    - FBSDKCoreKit (= 17.0.2)
   - FirebaseAnalytics (10.27.0):
     - FirebaseAnalytics/AdIdSupport (= 10.27.0)
     - FirebaseCore (~> 10.0)
@@ -1227,6 +1229,7 @@ PODS:
     - AppsFlyerFramework
     - FBSDKCoreKit (~> 17.0.2)
     - FBSDKLoginKit (~> 17.0.2)
+    - FBSDKShareKit (~> 17.0.2)
     - FirebaseAnalytics (~> 10.27.0)
     - FirebaseAuth (~> 10.27.0)
     - FirebaseCore (~> 10.27.0)
@@ -1258,6 +1261,7 @@ SPEC REPOS:
     - FBSDKCoreKit
     - FBSDKCoreKit_Basics
     - FBSDKLoginKit
+    - FBSDKShareKit
     - FirebaseAnalytics
     - FirebaseAppCheckInterop
     - FirebaseAuth
@@ -1305,6 +1309,7 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: a5f384db2e9ee84e98494fed8f983d2bd79accff
   FBSDKCoreKit_Basics: d35c775aaf243a2d731dfae7be3a74b1987285ab
   FBSDKLoginKit: f8ca5f7ab7c4e5b93e729d94975b0db7fcc511ed
+  FBSDKShareKit: e7ec3bed8e82dabc04e56f3cf44ef99a1864309e
   FirebaseAnalytics: f9211b719db260cc91aebee8bb539cb367d0dfd1
   FirebaseAppCheckInterop: 0dd062c9926a76332ca5711dbed6f1a9ac540b54
   FirebaseAuth: 77a012b7e08042bf44d0db835ca2e86e6ca7bbd3
@@ -1337,7 +1342,7 @@ SPEC CHECKSUMS:
   SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
-  zawsdk_ios: 5c48e228ed21b4910e23534ce9b6dea05837bcf5
+  zawsdk_ios: eb6f3c63d2e8e0f28d3261bbfe9b092a85281025
 
 PODFILE CHECKSUM: c829fd00d8903ba619e540fbdded4f4ee5ad4049
 

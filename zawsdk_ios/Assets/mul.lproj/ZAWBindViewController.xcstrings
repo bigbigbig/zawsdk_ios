@@ -1,0 +1,114 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "8gz-nS-swG.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Facebook Login\"; ObjectID = \"8gz-nS-swG\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Facebook Login"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบด้วย Facebook"
+          }
+        }
+      }
+    },
+    "39E-3b-b0S.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Apple Login\"; ObjectID = \"39E-3b-b0S\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Apple Login"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบด้วย Apple"
+          }
+        }
+      }
+    },
+    "bZw-NB-qc7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"I have read and agreed to the\"; ObjectID = \"bZw-NB-qc7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "I have read and agreed to the"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฉันได้อ่านรายละเอียดและยอมรับ"
+          }
+        }
+      }
+    },
+    "cMd-cx-TaL.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Google Login\"; ObjectID = \"cMd-cx-TaL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Google Login"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบด้วย Google"
+          }
+        }
+      }
+    },
+    "jBq-b3-zgU.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"User Binding\"; ObjectID = \"jBq-b3-zgU\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "User Binding"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "User Binding"
+          }
+        }
+      }
+    },
+    "nd2-FE-DRz.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"User Agreement and Privacy Policy\"; ObjectID = \"nd2-FE-DRz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "User Agreement and Privacy Policy"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อตกลงการลงทะเบียนผู้ใช้และนโยบายความเป็นส่วนตัว"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

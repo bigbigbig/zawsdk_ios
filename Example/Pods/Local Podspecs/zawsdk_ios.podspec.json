@@ -20,8 +20,8 @@
   },
   "source_files": "zawsdk_ios/Classes/**/*{h,m}",
   "resource_bundles": {
-    "zawsdk_ios": [
-      "zawsdk_ios/Assets/*.png"
+    "bundle": [
+      "zawsdk_ios/Assets/*"
     ]
   },
   "static_framework": true,
@@ -72,6 +72,9 @@
       "~> 17.0.2"
     ],
     "FBSDKLoginKit": [
+      "~> 17.0.2"
+    ],
+    "FBSDKShareKit": [
       "~> 17.0.2"
     ],
     "FirebaseCore": [
