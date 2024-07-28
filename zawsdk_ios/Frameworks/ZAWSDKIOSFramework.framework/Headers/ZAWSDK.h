@@ -11,10 +11,12 @@
 //#import "ZAWUserRoleInfo.h"
 //#import "ZAWPayModel.h"
 //#import "ZAWUserPayQuery.h"
-#import <ZAWSDKIOSFramework/ZAWLoginModel.h>
-#import <ZAWSDKIOSFramework/ZAWUserRoleInfo.h>
-#import <ZAWSDKIOSFramework/ZAWPayModel.h>
-#import <ZAWSDKIOSFramework/ZAWUserPayQuery.h>
+
+
+ #import <ZAWSDKIOSFramework/ZAWLoginModel.h>
+ #import <ZAWSDKIOSFramework/ZAWUserRoleInfo.h>
+ #import <ZAWSDKIOSFramework/ZAWPayModel.h>
+ #import <ZAWSDKIOSFramework/ZAWUserPayQuery.h>
 
 #ifdef __cplusplus
 #define ZAWSDK_EXTERN        extern "C" __attribute__((visibility ("default")))
@@ -121,6 +123,10 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
 
 - (void)firebaseLogEventWithName:(NSString *)eventName
                           values:(NSDictionary *)eventValues;
+
+//分享
+- (void)shareLinkToFacebook:(NSString *)link
+         fromViewController:(UIViewController *)viewController;
 
 - (void)saveLoginInfo:(ZAWUserLoginMessage *)message;
 

@@ -7,7 +7,7 @@
 //
 
 #import "ZTAppDelegate.h"
-#import "ZAWSDK.h"
+#import "ZAWSDKIOSFramework/ZAWSDK.h"
 
 @implementation ZTAppDelegate
 

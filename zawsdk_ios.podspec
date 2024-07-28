@@ -33,8 +33,9 @@ zawsdk ios hahahahhahaah
 
   s.source_files = 'zawsdk_ios/Classes/**/*{h,m}'
    s.resource_bundles = {
-     'zawsdk_ios' => ['zawsdk_ios/Assets/*.png']
+     'bundle' => ['zawsdk_ios/Assets/*']
    }
+
    
 #   s.requires_arc = true
 #   s.compiler_flags = '-DBORINGSSL_PREFIX=GRPC -Wno-unreachable-code -Wno-shorten-64-to-32'
@@ -71,6 +72,7 @@ zawsdk ios hahahahhahaah
    s.dependency 'GoogleSignIn', '~> 7.1.0'
    s.dependency 'FBSDKCoreKit', '~> 17.0.2'
    s.dependency 'FBSDKLoginKit', '~> 17.0.2'
+   s.dependency 'FBSDKShareKit', '~> 17.0.2'
    s.dependency 'FirebaseCore', '~> 10.27.0'
    s.dependency 'FirebaseCoreExtension', '~> 10.27.0'
    s.dependency 'FirebaseFirestoreInternal', '~> 10.27.0'
