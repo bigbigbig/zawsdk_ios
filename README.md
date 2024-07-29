@@ -46,8 +46,7 @@ target 'ZAWSDKIOSTestDemo' do
   end
 end
 ```
-#### 首次拉取成功，但是后来升级版本号后，拉取报错了？
-如果拉取报了莫名奇妙的错误，可以试试更新 spec
+#### 首次拉取成功，但是后来升级版本号后，拉取报错了？试试更新 spec
 ```shell
 # 查看本地都有哪些 spec 仓库
 pod repo
