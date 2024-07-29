@@ -34,6 +34,7 @@ source 'https://github.com/bigbigbig/mySpecs.git'
 
 use_frameworks!
 target 'ZAWSDKIOSTestDemo' do
+# latest_release 替换为Readme顶部的版本号，不用带字母v
   pod 'zawsdk_ios', '~> latest_release'
   
   post_install do |installer|
