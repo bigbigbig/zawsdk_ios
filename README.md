@@ -46,6 +46,17 @@ target 'ZAWSDKIOSTestDemo' do
   end
 end
 ```
+####首次拉取成功，但是后来升级版本号后，拉取报错了？
+如果拉取报了莫名奇妙的错误，可以试试更新 spec
+```shell
+# 查看本地都有哪些 spec 仓库
+pod repo
+# 应该会看到一个 bigbigbig-myspecs，更新一下
+pod repo update bigbigbig-myspecs
+# 如果看到了mySpecs，那也更新一下
+pod repo update mySpecs
+# 再次尝试拉取即可
+```
 ## 使用
 #### 引入头文件
 ```objective-c
