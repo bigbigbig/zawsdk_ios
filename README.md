@@ -1,9 +1,6 @@
 # zawsdk_ios
+[![Latest release](https://img.shields.io/github/v/release/bigbigbig/zawsdk_ios)](https://github.com/bigbigbig/zawsdk_ios/releases/latest)
 
-[![CI Status](https://img.shields.io/travis/Mingsheng Zhang/zawsdk_ios.svg?style=flat)](https://travis-ci.org/Mingsheng Zhang/zawsdk_ios)
-[![Version](https://img.shields.io/cocoapods/v/zawsdk_ios.svg?style=flat)](https://cocoapods.org/pods/zawsdk_ios)
-[![License](https://img.shields.io/cocoapods/l/zawsdk_ios.svg?style=flat)](https://cocoapods.org/pods/zawsdk_ios)
-[![Platform](https://img.shields.io/cocoapods/p/zawsdk_ios.svg?style=flat)](https://cocoapods.org/pods/zawsdk_ios)
 
 ## Example
 
