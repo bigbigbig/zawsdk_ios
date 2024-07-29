@@ -34,7 +34,7 @@ source 'https://github.com/bigbigbig/mySpecs.git'
 
 use_frameworks!
 target 'ZAWSDKIOSTestDemo' do
-  pod 'zawsdk_ios', '~> 0.1.0'
+  pod 'zawsdk_ios', '~> latest_release'
   
   post_install do |installer|
     installer.pods_project.targets.each do |target|
