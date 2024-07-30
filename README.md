@@ -56,6 +56,43 @@ pod repo update bigbigbig-myspecs
 pod repo update mySpecs
 # 再次尝试拉取即可
 ```
+## 关于登录的说明
+#### 登录方式的枚举值
+```java
+    public static int FACEBOOK = 1;
+    public static int GOOGLE = 2;
+    public static int APPLE = 3;
+    public static int GUEST = 4;
+```
+#### 我们推荐的登录方式
+>直接调用 `quickLogin`，`quickLogin`方式 首次进入 app 为静默游客登录，之后进入 app 为快速登录上次的登录方式，如果用户通过退出登录`logout`清空了本地缓存的登录信息，则下次调用`quickLogin`会拉起登录界面
+
+#### 如何切换账号
+>调用 `login` 方法，即可切换账号，当前是登录状态，依然可以通过该方法切换账号
+#### 游客登录绑定三方账号
+>登录相关的接口返回的 loginModel 模型, 含有 loginType 和 bindType 两个字段，只有loginType 为 4 游客，且 bindType 为 0 未绑定，才需要显示绑定入口，绑定时调用 `bind` 方法即可
+#### 不想用`quickLogin`的首次静默游客登录该如何处理?
+```objective-c
+- (IBAction)login:(id)sender {
+    Boolean hasLogin = [[NSUserDefaults standardUserDefaults]boolForKey:@"hasLogin"];
+    if(hasLogin){
+        [[ZAWSDK sharedInstance]loginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+            [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"hasLogin"];
+            NSLog(@"ZAWSDK login:::success:::%@", [loginModel description]);
+        } failure:^(NSInteger code, NSString * _Nonnull message) {
+            NSLog(@"ZAWSDK login:::failure:::%@", message);
+        }];
+    }else{
+        [[ZAWSDK sharedInstance]quickLoginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+            NSLog(@"ZAWSDK quickLogin:::success:::%@", [loginModel description]);
+        } failure:^(NSInteger code, NSString * _Nonnull message) {
+            NSLog(@"ZAWSDK quickLogin:::failure:::%@", message);
+        }];
+    }
+}
+```
+
+
 ## 使用
 #### 引入头文件
 ```objective-c
@@ -134,6 +171,12 @@ pod repo update mySpecs
     [[ZAWSDK sharedInstance]logoutOnCompletionHandler:^{
         NSLog(@"ZAWSDK logout:::complete:::");
     }];
+}
+```
+#### 分享
+```objective-c
+- (IBAction)share:(id)sender {
+    [[ZAWSDK sharedInstance]shareLinkToFacebook:@"https://www.baidu.com" fromViewController:self];
 }
 ```
 ## 配置项目
