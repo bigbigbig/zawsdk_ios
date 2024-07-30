@@ -76,17 +76,17 @@ pod repo update mySpecs
 - (IBAction)login:(id)sender {
     Boolean hasLogin = [[NSUserDefaults standardUserDefaults]boolForKey:@"hasLogin"];
     if(hasLogin){
+        [[ZAWSDK sharedInstance]quickLoginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+            NSLog(@"ZAWSDK quickLogin:::success:::%@", [loginModel description]);
+        } failure:^(NSInteger code, NSString * _Nonnull message) {
+            NSLog(@"ZAWSDK quickLogin:::failure:::%@", message);
+        }];
+    }else{
         [[ZAWSDK sharedInstance]loginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
             [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"hasLogin"];
             NSLog(@"ZAWSDK login:::success:::%@", [loginModel description]);
         } failure:^(NSInteger code, NSString * _Nonnull message) {
             NSLog(@"ZAWSDK login:::failure:::%@", message);
-        }];
-    }else{
-        [[ZAWSDK sharedInstance]quickLoginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
-            NSLog(@"ZAWSDK quickLogin:::success:::%@", [loginModel description]);
-        } failure:^(NSInteger code, NSString * _Nonnull message) {
-            NSLog(@"ZAWSDK quickLogin:::failure:::%@", message);
         }];
     }
 }
