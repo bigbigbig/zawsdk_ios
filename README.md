@@ -240,7 +240,7 @@ AdSupport.framework<br>
 AdServices.framework<br>
 StoreKit.framework<br>
 AppTrackingTransparency.framework<br>
-WebKit.framework
+WebKit.framework  只有在应用使用 web 视图时才有必要
 #### 项目其它配置
 1、打开项目配置：在左侧的树状视图中点击项目名称 > 在Targets中选择您的应用 > 选择Build Settings标签页<br>
 在 Build Options 选项中 将 User Script Sandboxing 设置为 No<br>
