@@ -97,11 +97,9 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/AppsFlyerFramework/AppsFlyerLib_Privacy.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/zawsdk_ios/bundle.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/AppsFlyerFramework/AppsFlyerLib_Privacy.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/zawsdk_ios/bundle.bundle"
 fi
 

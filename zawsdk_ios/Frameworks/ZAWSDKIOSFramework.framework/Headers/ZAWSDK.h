@@ -12,11 +12,10 @@
 //#import "ZAWPayModel.h"
 //#import "ZAWUserPayQuery.h"
 
-
- #import <ZAWSDKIOSFramework/ZAWLoginModel.h>
- #import <ZAWSDKIOSFramework/ZAWUserRoleInfo.h>
- #import <ZAWSDKIOSFramework/ZAWPayModel.h>
- #import <ZAWSDKIOSFramework/ZAWUserPayQuery.h>
+#import <ZAWSDKIOSFramework/ZAWLoginModel.h>
+#import <ZAWSDKIOSFramework/ZAWUserRoleInfo.h>
+#import <ZAWSDKIOSFramework/ZAWPayModel.h>
+#import <ZAWSDKIOSFramework/ZAWUserPayQuery.h>
 
 #ifdef __cplusplus
 #define ZAWSDK_EXTERN        extern "C" __attribute__((visibility ("default")))
@@ -64,7 +63,7 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
              appleAppId:(NSString *)appleAppId
              policy_url:(NSString *)policy_url
           agreement_url:(NSString *)agreement_url
-               af_token:(NSString *)af_token
+               ad_token:(NSString *)ad_token
                 success:(nullable void (^)(void))completionHandler;
 
 - (BOOL)application:(UIApplication*)application openURL:(NSURL *)url options:(nonnull NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options;
@@ -118,8 +117,7 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
                     failure:(nullable void (^)(NSInteger code, NSString *message))failure;
 
 // 原生上报
-- (void)afLogEventWithName:(NSString *)eventName
-                    values:(NSDictionary *)eventValues;
+- (void)adLogEventWithEventToken:(NSString *)eventToken;
 
 - (void)firebaseLogEventWithName:(NSString *)eventName
                           values:(NSDictionary *)eventValues;
