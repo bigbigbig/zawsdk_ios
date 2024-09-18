@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zawsdk_ios'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'zawsdk for ios'
 
 # This description is used to generate tags and improve search results.
@@ -60,7 +60,7 @@ zawsdk ios hahahahhahaah
    s.frameworks = 'UIKit', 'Foundation'
    s.dependency 'AFNetworking', '~> 4.0'
    s.dependency 'MFSIdentifier', '~> 1.0.2'
-   s.dependency 'AppsFlyerFramework'
+   s.dependency 'Adjust', '~> 4.38.4'
    s.dependency 'HBDNavigationBar', '~> 1.9.6'
    s.dependency 'SDWebImage', '~> 5.19.2'
    s.dependency 'Masonry', '~> 1.1.0'

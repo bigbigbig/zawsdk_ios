@@ -4,14 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AppsFlyerLib_Privacy.bundle/Info.plist</key>
-		<data>
-		UovG78KCI8L6nrgOfUKQN+rZNQ0=
-		</data>
-		<key>AppsFlyerLib_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		Z5diDfyJ8Q98I5JWKtVGWEvkXII=
-		</data>
 		<key>Headers/ZAWLoginModel.h</key>
 		<data>
 		AHJgWdQFHC+zPw4OYg8/TzX3iuc=
@@ -22,7 +14,7 @@
 		</data>
 		<key>Headers/ZAWSDK.h</key>
 		<data>
-		6L5Y+sZ/EcBpkwr2JCP2ROLPfEI=
+		y4DWDb6nEmrFyuNewziaky19+1w=
 		</data>
 		<key>Headers/ZAWSDKIOSFramework.h</key>
 		<data>
@@ -47,28 +39,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>AppsFlyerLib_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UovG78KCI8L6nrgOfUKQN+rZNQ0=
-			</data>
-			<key>hash2</key>
-			<data>
-			PgtVKgA0WKLr47IcWOsEI18fM1QhcxTP0Levkg5hI9k=
-			</data>
-		</dict>
-		<key>AppsFlyerLib_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z5diDfyJ8Q98I5JWKtVGWEvkXII=
-			</data>
-			<key>hash2</key>
-			<data>
-			6xKWyp82bfdpIC+qSEbhTjD40SP5BWjupWVxQg5FQkY=
-			</data>
-		</dict>
 		<key>Headers/ZAWLoginModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -95,11 +65,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6L5Y+sZ/EcBpkwr2JCP2ROLPfEI=
+			y4DWDb6nEmrFyuNewziaky19+1w=
 			</data>
 			<key>hash2</key>
 			<data>
-			4KtE3+ee4XnIFY85Ox1KCsMNOONkzT+MSHDBRBKB7d4=
+			xLDESS/5oS23QUSVoggR1mKtRiCng2x0n+Mu08AbQQ8=
 			</data>
 		</dict>
 		<key>Headers/ZAWSDKIOSFramework.h</key>
