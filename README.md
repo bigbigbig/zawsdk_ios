@@ -102,7 +102,7 @@ pod repo update mySpecs
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[ZAWSDK sharedInstance]initWithChannel:@"8XXXX" appId:@"XX" appKey:@"XXXXXXXXXX" appleAppId:@"XXXXXXXX" policy_url:@"https://www.baidu.com" agreement_url:@"https://www.baidu.com" af_token:@"XXXXXXXXXX" success:^{
+    [[ZAWSDK sharedInstance]initWithChannel:@"8XXXX" appId:@"XX" appKey:@"XXXXXXXXXX" appleAppId:@"XXXXXXXX" policy_url:@"https://www.baidu.com" agreement_url:@"https://www.baidu.com" ad_token:@"XXXXXXXXXX" success:^{
         
     }];
     return YES;
@@ -179,6 +179,10 @@ pod repo update mySpecs
     [[ZAWSDK sharedInstance]shareLinkToFacebook:@"https://www.baidu.com" fromViewController:self];
 }
 ```
+#### 上报adjust事件
+```objective-c
+- (void)adLogEventWithEventToken:(NSString *)eventToken;
+```
 ## 配置项目
 #### Facebook 配置
 右键点击 Info.plist，然后选择 Open As（打开方式）▸ Source Code（源代码）。<br>
@@ -230,9 +234,13 @@ pod repo update mySpecs
 搜索 iCloud 功能，并勾选，在 Services 中勾选 Key-value storage<br>
 搜索 In-App Purchase 功能，并勾选<br>
 搜索 Sign in with Apple 功能，并勾选<br>
-#### Appsflyer 配置
-打开项目配置：在左侧的树状视图中点击项目名称 > 在Targets中选择您的应用 > 选择info标签页<br>
-添加 NSAdvertisingAttributionReportEndpoint 键，设置值为 https://appsflyer-skadnetwork.com/.
+#### Adjust 配置
+添加以下 framework
+AdSupport.framework
+AdServices.framework
+StoreKit.framework
+AppTrackingTransparency.framework
+WebKit.framework
 #### 项目其它配置
 1、打开项目配置：在左侧的树状视图中点击项目名称 > 在Targets中选择您的应用 > 选择Build Settings标签页<br>
 在 Build Options 选项中 将 User Script Sandboxing 设置为 No<br>
