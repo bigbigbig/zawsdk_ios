@@ -235,11 +235,11 @@ pod repo update mySpecs
 搜索 In-App Purchase 功能，并勾选<br>
 搜索 Sign in with Apple 功能，并勾选<br>
 #### Adjust 配置
-添加以下 framework
-AdSupport.framework
-AdServices.framework
-StoreKit.framework
-AppTrackingTransparency.framework
+添加以下 framework<br>
+AdSupport.framework<br>
+AdServices.framework<br>
+StoreKit.framework<br>
+AppTrackingTransparency.framework<br>
 WebKit.framework
 #### 项目其它配置
 1、打开项目配置：在左侧的树状视图中点击项目名称 > 在Targets中选择您的应用 > 选择Build Settings标签页<br>
