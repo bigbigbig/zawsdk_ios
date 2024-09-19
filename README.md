@@ -55,6 +55,8 @@ pod repo update bigbigbig-myspecs
 # 如果看到了mySpecs，那也更新一下
 pod repo update mySpecs
 # 再次尝试拉取即可
+# 如果还是不行，试试清除本地缓存
+pod cache clean --all
 ```
 ## 关于登录的说明
 #### 登录方式的枚举值
