@@ -23,10 +23,30 @@
 
 - (IBAction)login:(id)sender {
     [[ZAWSDK sharedInstance]loginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"hasLogin"];
         NSLog(@"ZAWSDK login:::success:::%@", [loginModel description]);
     } failure:^(NSInteger code, NSString * _Nonnull message) {
         NSLog(@"ZAWSDK login:::failure:::%@", message);
     }];
+//    Boolean hasLogin = [[NSUserDefaults standardUserDefaults]boolForKey:@"hasLogin"];
+//    if(hasLogin){
+//        [[ZAWSDK sharedInstance]loginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+//            [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"hasLogin"];
+//            NSLog(@"ZAWSDK login:::success:::%@", [loginModel description]);
+//        } failure:^(NSInteger code, NSString * _Nonnull message) {
+//            NSLog(@"ZAWSDK login:::failure:::%@", message);
+//        }];
+//    }else{
+//        [[ZAWSDK sharedInstance]quickLoginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+//            NSLog(@"ZAWSDK quickLogin:::success:::%@", [loginModel description]);
+//        } failure:^(NSInteger code, NSString * _Nonnull message) {
+//            NSLog(@"ZAWSDK quickLogin:::failure:::%@", message);
+//        }];
+//    }
+}
+
+- (IBAction)share:(id)sender {
+    [[ZAWSDK sharedInstance]shareLinkToFacebook:@"https://www.baidu.com" fromViewController:self];
 }
 
 - (IBAction)bind:(id)sender {
@@ -34,14 +54,6 @@
         NSLog(@"ZAWSDK bind:::success:::%@", [loginModel description]);
     } failure:^(NSInteger code, NSString * _Nonnull message) {
         NSLog(@"ZAWSDK bind:::failure:::%@", message);
-    }];
-}
-
-- (IBAction)uploadUserInfo:(id)sender {
-    [[ZAWSDK sharedInstance]updateRoleInfoWithUid:@"" serverId:@"" serverName:@"" roleId:@"" roleName:@"" roleLevel:@"" success:^(ZAWUserRoleInfo * _Nonnull loginModel) {
-        
-    } failure:^(NSInteger code, NSString * _Nonnull message) {
-        
     }];
 }
 
