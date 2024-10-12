@@ -88,8 +88,7 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
                        failure:(nullable void (^)(NSInteger code, NSString *message))failure;
 
 // 上报用户角色信息
-- (void)updateRoleInfoWithUid:(NSString *)uid
-                     serverId:(NSString *)serverId
+- (void)updateRoleInfoWithServerId:(NSString *)serverId
                    serverName:(NSString *)serverName
                        roleId:(NSString *)roleId
                      roleName:(NSString *)roleName
