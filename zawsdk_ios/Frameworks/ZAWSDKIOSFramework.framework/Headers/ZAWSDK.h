@@ -115,6 +115,9 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
                     success:(nullable void (^)(ZAWUserPayQuery *payModel))success
                     failure:(nullable void (^)(NSInteger code, NSString *message))failure;
 
+//删除账号
+- (void)deleteAccount;
+
 // 原生上报
 - (void)adLogEventWithEventToken:(NSString *)eventToken;
 
