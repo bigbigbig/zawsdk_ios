@@ -20,6 +20,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+- (IBAction)delete:(id)sender {
+    [[ZAWSDK sharedInstance]deleteAccount];
+}
 
 - (IBAction)login:(id)sender {
     [[ZAWSDK sharedInstance]loginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
