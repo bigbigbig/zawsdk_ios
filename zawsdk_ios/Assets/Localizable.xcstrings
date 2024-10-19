@@ -1,6 +1,17 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Apple Login" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบด้วย Apple"
+          }
+        }
+      }
+    },
     "Do you want to exit the game?" : {
       "extractionState" : "manual",
       "localizations" : {
