@@ -1,0 +1,193 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Apple Login" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบด้วย Apple"
+          }
+        }
+      }
+    },
+    "Do you want to exit the game?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณต้องการออกจากเกมหรือไม่"
+          }
+        }
+      }
+    },
+    "Facebook Login" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบด้วย Facebook"
+          }
+        }
+      }
+    },
+    "Google Login" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบด้วย Google"
+          }
+        }
+      }
+    },
+    "Guest Login" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guest Login"
+          }
+        }
+      }
+    },
+    "I have read and agreed to the" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฉันได้อ่านรายละเอียดและยอมรับ"
+          }
+        }
+      }
+    },
+    "Login failed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกอินล้มเหลว"
+          }
+        }
+      }
+    },
+    "Login Success" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกอินสำเร็จ"
+          }
+        }
+      }
+    },
+    "no" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่"
+          }
+        }
+      }
+    },
+    "Payment canceled" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิกการชำระเงิน"
+          }
+        }
+      }
+    },
+    "Payment failed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การชำระเงินล้มเหลว"
+          }
+        }
+      }
+    },
+    "Please check and agree User Agreement and Privacy Policy first." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปรดเลือกก่อนว่าฉันได้อ่าน/ข้อตกลงการลงทะเบียนผู้ใช้และนโยบายความเป็นส่วนตัว"
+          }
+        }
+      }
+    },
+    "Please read and agree to the User Agreement and Privacy Policy" : {
+      "comment" : "请阅读并同意页面协议",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปรดอ่านและยอมรับข้อตกลงการให้บริการและแนวทางการคุ้มครองความเป็นส่วนตัว"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "User Agreement and Privacy Policy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อตกลงการลงทะเบียนผู้ใช้และนโยบายความเป็นส่วนตัว"
+          }
+        }
+      }
+    },
+    "User Login" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "User Login"
+          }
+        }
+      }
+    },
+    "yes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช่"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
