@@ -12,6 +12,28 @@
         }
       }
     },
+    "Binding failed, please contact customer service" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การผูกล้มเหลว โปรดติดต่อฝ่ายบริการลูกค้า"
+          }
+        }
+      }
+    },
+    "Binding successful" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การผูกสำเร็จ"
+          }
+        }
+      }
+    },
     "Do you want to exit the game?" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -73,18 +95,18 @@
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ล็อกอินล้มเหลว"
+            "value" : "การเข้าสู่ระบบล้มเหลว"
           }
         }
       }
     },
-    "Login Success" : {
+    "Login successful" : {
       "extractionState" : "manual",
       "localizations" : {
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ล็อกอินสำเร็จ"
+            "value" : "การเข้าสู่ระบบสำเร็จ"
           }
         }
       }
