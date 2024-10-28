@@ -24,6 +24,7 @@
 		81B1DC04C9E232CA7E0E7771 /* Pods_zawsdk_ios_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821A5CF0EBDF0D2B20AF5535 /* Pods_zawsdk_ios_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C598C9769B4D99CC705509CA /* Pods_zawsdk_ios_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F2D435D24FF2D9D5B5C44 /* Pods_zawsdk_ios_Tests.framework */; };
+		EBAD75822CCF6CB800ABAC33 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EBAD75812CCF6CB800ABAC33 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		CC55E50F827DFD3EC671AD58 /* Pods-zawsdk_ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zawsdk_ios_Example.release.xcconfig"; path = "Target Support Files/Pods-zawsdk_ios_Example/Pods-zawsdk_ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D67F2D435D24FF2D9D5B5C44 /* Pods_zawsdk_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zawsdk_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02814928A85D9BB6BE21FB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EBAD75812CCF6CB800ABAC33 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		6003F593195388D20070C39A /* Example for zawsdk_ios */ = {
 			isa = PBXGroup;
 			children = (
+				EBAD75812CCF6CB800ABAC33 /* Localizable.xcstrings */,
 				6003F59C195388D20070C39A /* ZTAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				EBAD75822CCF6CB800ABAC33 /* Localizable.xcstrings in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
