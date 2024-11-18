@@ -252,6 +252,8 @@ WebKit.framework  只有在应用使用 web 视图时才有必要
 <key>NSUserTrackingUsageDescription</key>
 <string>This identifier will be used to deliver personalized ads to you.</string>
 ```
+skan 设置
+![1981731902725_ pic](https://github.com/user-attachments/assets/de3ce9e4-cbbe-427d-bf98-13172c1c46b0)
 添加网络访问声明键值
 ```
 <key>NSAppTransportSecurity</key>
