@@ -71,6 +71,15 @@
                                     <action selector="delete:" destination="bjy-H1-sUr" eventType="touchUpInside" id="nD6-Jd-jfg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSf-v0-4GB">
+                                <rect key="frame" x="155" y="598" width="86" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="account"/>
+                                <connections>
+                                    <action selector="account:" destination="bjy-H1-sUr" eventType="touchUpInside" id="iEV-0h-ehp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oqW-bg-Uld"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

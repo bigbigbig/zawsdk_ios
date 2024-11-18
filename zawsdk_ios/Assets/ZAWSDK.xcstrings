@@ -12,6 +12,17 @@
         }
       }
     },
+    "Binding" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผูกแล้ว:"
+          }
+        }
+      }
+    },
     "Binding failed, please contact customer service" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -30,6 +41,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การผูกสำเร็จ"
+          }
+        }
+      }
+    },
+    "Current Login" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกอินปัจจุบัน"
           }
         }
       }
@@ -177,6 +199,17 @@
         }
       }
     },
+    "Switch Account" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สลับบัญชี"
+          }
+        }
+      }
+    },
     "User Agreement and Privacy Policy" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -184,6 +217,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้อตกลงการลงทะเบียนผู้ใช้และนโยบายความเป็นส่วนตัว"
+          }
+        }
+      }
+    },
+    "User Center" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ศูนย์ผู้ใช้งาน"
           }
         }
       }

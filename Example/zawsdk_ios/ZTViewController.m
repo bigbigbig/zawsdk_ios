@@ -85,6 +85,14 @@
     }];
 }
 
+- (IBAction)account:(id)sender {
+    [[ZAWSDK sharedInstance]accountFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+        NSLog(@"ZAWSDK account:::success:::%@", [loginModel description]);
+    } failure:^(NSInteger code, NSString * _Nonnull message) {
+        NSLog(@"ZAWSDK account:::failure:::%@", message);
+    }];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
