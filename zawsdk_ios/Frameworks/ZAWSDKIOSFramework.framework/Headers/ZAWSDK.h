@@ -80,6 +80,10 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
                              success:(void (^)(ZAWLoginModel *))success
                              failure:(void (^)(NSInteger, NSString *))failure;
 
+- (void)accountFromViewController:(UIViewController *)viewController
+                             success:(void (^)(ZAWLoginModel *))success
+                          failure:(void (^)(NSInteger, NSString *))failure;
+
 - (void)logoutOnCompletionHandler:(nullable void (^)(void))completionHandler;
 
 // 绑定
@@ -115,6 +119,7 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
                     success:(nullable void (^)(ZAWUserPayQuery *payModel))success
                     failure:(nullable void (^)(NSInteger code, NSString *message))failure;
 
+
 //删除账号
 - (void)deleteAccount;
 
@@ -123,6 +128,7 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
 
 - (void)firebaseLogEventWithName:(NSString *)eventName
                           values:(NSDictionary *)eventValues;
+
 
 //分享
 - (void)shareLinkToFacebook:(NSString *)link
@@ -138,6 +144,8 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
 - (NSString *)getAppKey;
 - (NSString *)getPolicyUrl;
 - (NSString *)getAgreementUrl;
++ (NSInteger)getLastLoginType;
++ (NSInteger)getLastBindType;
 @end
 
 // SDK初始化结果通知
