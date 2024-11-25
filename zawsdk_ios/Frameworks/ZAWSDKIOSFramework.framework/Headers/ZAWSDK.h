@@ -81,7 +81,8 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
                              failure:(void (^)(NSInteger, NSString *))failure;
 
 - (void)accountFromViewController:(UIViewController *)viewController
-                             success:(void (^)(ZAWLoginModel *))success
+                        switchTap:(void (^)(void))switchTap
+                          success:(void (^)(ZAWLoginModel *))success
                           failure:(void (^)(NSInteger, NSString *))failure;
 
 - (void)logoutOnCompletionHandler:(nullable void (^)(void))completionHandler;
