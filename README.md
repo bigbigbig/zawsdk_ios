@@ -135,7 +135,7 @@ pod cache clean --all
 }
 ```
 #### 切换账号
-```
+```objective-c
 - (IBAction)account:(id)sender {
     [[ZAWSDK sharedInstance]accountFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
         NSLog(@"ZAWSDK account login:::success:::%@", [loginModel description]);
