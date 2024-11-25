@@ -86,7 +86,9 @@
 }
 
 - (IBAction)account:(id)sender {
-    [[ZAWSDK sharedInstance]accountFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+    [[ZAWSDK sharedInstance]accountFromViewController:self switchTap:^{
+        NSLog(@"ZAWSDK account:::switch:::tap");
+    } success:^(ZAWLoginModel * _Nonnull loginModel) {
         NSLog(@"ZAWSDK account:::success:::%@", [loginModel description]);
     } failure:^(NSInteger code, NSString * _Nonnull message) {
         NSLog(@"ZAWSDK account:::failure:::%@", message);
