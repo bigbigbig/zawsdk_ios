@@ -134,6 +134,18 @@ pod cache clean --all
     }];
 }
 ```
+#### 切换账号
+```
+- (IBAction)account:(id)sender {
+    [[ZAWSDK sharedInstance]accountFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+        NSLog(@"ZAWSDK account login:::success:::%@", [loginModel description]);
+
+    } failure:^(NSInteger code, NSString * _Nonnull message) {
+        NSLog(@"ZAWSDK account login:::failure:::%@", message);
+
+    }];
+}
+```
 #### 绑定
 ```objective-c
 - (IBAction)bind:(id)sender {
