@@ -57,6 +57,9 @@ pod repo update mySpecs
 # 再次尝试拉取即可
 # 如果还是不行，试试清除本地缓存
 pod cache clean --all
+# 大招
+rm -rf ~/.cocoapods/repos/trunk/
+pod install
 ```
 ## 关于登录的说明
 #### 登录方式的枚举值
