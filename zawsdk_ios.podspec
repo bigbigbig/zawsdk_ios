@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zawsdk_ios'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = 'zawsdk for ios'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,8 @@ zawsdk ios hahahahhahaah
   s.source           = { :git => 'https://github.com/bigbigbig/zawsdk_ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform = :ios, '12.0'
-  s.ios.deployment_target = '12.0'
+  s.platform = :ios, '13.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'zawsdk_ios/Classes/**/*{h,m}'
    s.resource_bundles = {
@@ -60,7 +60,7 @@ zawsdk ios hahahahhahaah
    s.frameworks = 'UIKit', 'Foundation'
    s.dependency 'AFNetworking', '~> 4.0'
    s.dependency 'MFSIdentifier', '~> 1.0.2'
-   s.dependency 'Adjust', '~> 4.38.4'
+   s.dependency 'Adjust', '~> 5.1.1'
    s.dependency 'HBDNavigationBar', '~> 1.9.6'
    s.dependency 'SDWebImage', '~> 5.19.2'
    s.dependency 'Masonry', '~> 1.1.0'
@@ -68,15 +68,15 @@ zawsdk ios hahahahhahaah
    s.dependency 'YYModel', '~> 1.0.4'
    s.dependency 'SVProgressHUD', '~> 2.3.1'
    s.dependency 'MZFormSheetPresentationController', '~> 2.4.3'
-   s.dependency 'GoogleUtilities', '~> 7.13.3'
-   s.dependency 'GoogleSignIn', '~> 7.1.0'
-   s.dependency 'FBSDKCoreKit', '~> 17.0.2'
-   s.dependency 'FBSDKLoginKit', '~> 17.0.2'
-   s.dependency 'FBSDKShareKit', '~> 17.0.2'
-   s.dependency 'FirebaseCore', '~> 10.27.0'
-   s.dependency 'FirebaseCoreExtension', '~> 10.27.0'
-   s.dependency 'FirebaseFirestoreInternal', '~> 10.27.0'
-   s.dependency 'FirebaseAnalytics', '~> 10.27.0'
-   s.dependency 'FirebaseAuth', '~> 10.27.0'
-   s.dependency 'FirebaseFirestore', '~> 10.27.0'
+   s.dependency 'GoogleUtilities', '~> 8.0.2'
+   s.dependency 'GoogleSignIn', '~> 8.0.0'
+   s.dependency 'FBSDKCoreKit', '~> 18.0.0'
+   s.dependency 'FBSDKLoginKit', '~> 18.0.0'
+   s.dependency 'FBSDKShareKit', '~> 18.0.0'
+   s.dependency 'FirebaseCore', '~> 11.9.0'
+   s.dependency 'FirebaseCoreExtension', '~> 11.9.0'
+   s.dependency 'FirebaseFirestoreInternal', '~> 11.9.0'
+   s.dependency 'FirebaseAnalytics', '~> 11.9.0'
+   s.dependency 'FirebaseAuth', '~> 11.9.0'
+   s.dependency 'FirebaseFirestore', '~> 11.9.0'
 end

@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FBSDKShareKit",
+    "printedName": "FBSDKShareKit",
     "children": [
       {
         "kind": "Import",
@@ -200,6 +200,20 @@
             ],
             "enumRawTypeName": "Int",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -1125,6 +1139,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
@@ -1437,32 +1465,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "DependentAsType",
-            "printedName": "DependentAsType",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "TypeDependencies",
-                "printedName": "TypeDependencies",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TypeDependencies",
-                    "printedName": "FBSDKShareKit.AppInviteContent.TypeDependencies",
-                    "usr": "s:13FBSDKShareKit16AppInviteContentC16TypeDependenciesV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:13FBSDKShareKit15DependentAsTypeP",
-            "mangledName": "$s13FBSDKShareKit15DependentAsTypeP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "SharingValidatable",
-            "printedName": "SharingValidatable",
-            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
-            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1512,6 +1525,35 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DependentAsType",
+            "printedName": "DependentAsType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "TypeDependencies",
+                "printedName": "TypeDependencies",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TypeDependencies",
+                    "printedName": "FBSDKShareKit.AppInviteContent.TypeDependencies",
+                    "usr": "s:13FBSDKShareKit16AppInviteContentC16TypeDependenciesV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:13FBSDKShareKit15DependentAsTypeP",
+            "mangledName": "$s13FBSDKShareKit15DependentAsTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharingValidatable",
+            "printedName": "SharingValidatable",
+            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
+            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
           }
         ]
       },
@@ -1823,6 +1865,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2093,6 +2149,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2556,10 +2626,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -2930,6 +3021,22 @@
         "declAttributes": [
           "DynamicMemberLookup",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2981,8 +3088,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -3106,6 +3214,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3241,6 +3350,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3311,6 +3421,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3360,6 +3471,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3410,6 +3522,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3458,6 +3571,7 @@
             "moduleName": "FBSDKShareKit",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3481,6 +3595,7 @@
             "moduleName": "FBSDKShareKit",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "IBAction",
               "RawDocComment",
@@ -3516,6 +3631,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3557,6 +3673,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -3695,6 +3812,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
@@ -3730,8 +3861,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "isFromExtension": true,
             "hasStorage": true,
@@ -3859,6 +3991,7 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -3965,6 +4098,7 @@
         "moduleName": "FBSDKShareKit",
         "objc_name": "FBSDKSendButton",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "AccessControl",
@@ -3990,6 +4124,20 @@
             "printedName": "SharingButton",
             "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingButton",
             "mangledName": "$s13FBSDKShareKit13SharingButtonP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4127,8 +4275,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ObjC"
             ],
             "hasStorage": true,
@@ -4251,6 +4400,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4384,6 +4534,7 @@
             "moduleName": "FBSDKShareKit",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -4452,6 +4603,7 @@
             "moduleName": "FBSDKShareKit",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -4499,6 +4651,7 @@
             "moduleName": "FBSDKShareKit",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -4549,6 +4702,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4597,6 +4751,7 @@
             "moduleName": "FBSDKShareKit",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -4620,6 +4775,7 @@
             "moduleName": "FBSDKShareKit",
             "declAttributes": [
               "Final",
+              "Preconcurrency",
               "Custom",
               "IBAction",
               "RawDocComment",
@@ -4655,6 +4811,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -4696,6 +4853,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -4830,7 +4988,23 @@
             "usr": "s:13FBSDKShareKit13FBShareButtonC16TypeDependenciesV",
             "mangledName": "$s13FBSDKShareKit13FBShareButtonC16TypeDependenciesV",
             "moduleName": "FBSDKShareKit",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -4860,8 +5034,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "isFromExtension": true,
             "hasStorage": true,
@@ -4989,6 +5164,7 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -5095,6 +5271,7 @@
         "moduleName": "FBSDKShareKit",
         "objc_name": "FBSDKShareButton",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "AccessControl",
@@ -5120,6 +5297,20 @@
             "printedName": "SharingButton",
             "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingButton",
             "mangledName": "$s13FBSDKShareKit13SharingButtonP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5593,6 +5784,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5729,6 +5934,22 @@
         "moduleName": "FBSDKShareKit",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7253,7 +7474,23 @@
             "usr": "s:13FBSDKShareKit13MessageDialogC16TypeDependenciesV",
             "mangledName": "$s13FBSDKShareKit13MessageDialogC16TypeDependenciesV",
             "moduleName": "FBSDKShareKit",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -7538,6 +7775,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7716,6 +7967,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7892,6 +8157,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -7910,6 +8189,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -8116,10 +8402,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -8382,10 +8689,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           }
@@ -8398,10 +8726,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -8532,10 +8881,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -8651,10 +9021,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -8770,10 +9161,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           }
@@ -8786,10 +9198,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -8945,6 +9378,22 @@
         "moduleName": "FBSDKShareKit",
         "declAttributes": [
           "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -10374,6 +10823,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
@@ -10751,39 +11214,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "DependentAsType",
-            "printedName": "DependentAsType",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "TypeDependencies",
-                "printedName": "TypeDependencies",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TypeDependencies",
-                    "printedName": "FBSDKShareKit.ShareCameraEffectContent.TypeDependencies",
-                    "usr": "s:13FBSDKShareKit24ShareCameraEffectContentC16TypeDependenciesV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:13FBSDKShareKit15DependentAsTypeP",
-            "mangledName": "$s13FBSDKShareKit15DependentAsTypeP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "SharingContent",
-            "printedName": "SharingContent",
-            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingContent",
-            "mangledName": "$s13FBSDKShareKit14SharingContentP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SharingValidatable",
-            "printedName": "SharingValidatable",
-            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
-            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -10833,6 +11274,42 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DependentAsType",
+            "printedName": "DependentAsType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "TypeDependencies",
+                "printedName": "TypeDependencies",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TypeDependencies",
+                    "printedName": "FBSDKShareKit.ShareCameraEffectContent.TypeDependencies",
+                    "usr": "s:13FBSDKShareKit24ShareCameraEffectContentC16TypeDependenciesV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:13FBSDKShareKit15DependentAsTypeP",
+            "mangledName": "$s13FBSDKShareKit15DependentAsTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharingContent",
+            "printedName": "SharingContent",
+            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingContent",
+            "mangledName": "$s13FBSDKShareKit14SharingContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharingValidatable",
+            "printedName": "SharingValidatable",
+            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
+            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
           }
         ]
       },
@@ -12938,7 +13415,23 @@
             "usr": "s:13FBSDKShareKit11ShareDialogC16TypeDependenciesV",
             "mangledName": "$s13FBSDKShareKit11ShareDialogC16TypeDependenciesV",
             "moduleName": "FBSDKShareKit",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -13851,6 +14344,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -13918,6 +14425,20 @@
             "printedName": "SharingDialog",
             "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingDialog",
             "mangledName": "$s13FBSDKShareKit13SharingDialogP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -14081,7 +14602,23 @@
         "declKind": "Protocol",
         "usr": "s:13FBSDKShareKit32ShareDialogConfigurationProtocolP",
         "mangledName": "$s13FBSDKShareKit32ShareDialogConfigurationProtocolP",
-        "moduleName": "FBSDKShareKit"
+        "moduleName": "FBSDKShareKit",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -14409,6 +14946,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -14538,7 +15089,23 @@
         "declKind": "Protocol",
         "usr": "s:13FBSDKShareKit17ShareEventLoggingP",
         "mangledName": "$s13FBSDKShareKit17ShareEventLoggingP",
-        "moduleName": "FBSDKShareKit"
+        "moduleName": "FBSDKShareKit",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -14603,6 +15170,22 @@
         "objc_name": "FBSDKShareInternalURLOpening",
         "declAttributes": [
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -15719,17 +16302,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "SharingContent",
-            "printedName": "SharingContent",
-            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingContent",
-            "mangledName": "$s13FBSDKShareKit14SharingContentP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "SharingValidatable",
-            "printedName": "SharingValidatable",
-            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
-            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -15779,6 +16362,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharingContent",
+            "printedName": "SharingContent",
+            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingContent",
+            "mangledName": "$s13FBSDKShareKit14SharingContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharingValidatable",
+            "printedName": "SharingValidatable",
+            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
+            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
           }
         ]
       },
@@ -15797,6 +16394,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -16920,17 +17533,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "SharingContent",
-            "printedName": "SharingContent",
-            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingContent",
-            "mangledName": "$s13FBSDKShareKit14SharingContentP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "SharingValidatable",
-            "printedName": "SharingValidatable",
-            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
-            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -16980,6 +17593,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharingContent",
+            "printedName": "SharingContent",
+            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingContent",
+            "mangledName": "$s13FBSDKShareKit14SharingContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharingValidatable",
+            "printedName": "SharingValidatable",
+            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
+            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
           }
         ]
       },
@@ -17906,6 +18533,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
@@ -18649,6 +19290,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
@@ -18681,6 +19336,20 @@
             "printedName": "ShareMedia",
             "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKShareMedia",
             "mangledName": "$s13FBSDKShareKit10ShareMediaP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -20030,7 +20699,23 @@
             "usr": "s:13FBSDKShareKit17SharePhotoContentC16TypeDependenciesV",
             "mangledName": "$s13FBSDKShareKit17SharePhotoContentC16TypeDependenciesV",
             "moduleName": "FBSDKShareKit",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -20344,39 +21029,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "DependentAsType",
-            "printedName": "DependentAsType",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "TypeDependencies",
-                "printedName": "TypeDependencies",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TypeDependencies",
-                    "printedName": "FBSDKShareKit.SharePhotoContent.TypeDependencies",
-                    "usr": "s:13FBSDKShareKit17SharePhotoContentC16TypeDependenciesV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:13FBSDKShareKit15DependentAsTypeP",
-            "mangledName": "$s13FBSDKShareKit15DependentAsTypeP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "SharingContent",
-            "printedName": "SharingContent",
-            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingContent",
-            "mangledName": "$s13FBSDKShareKit14SharingContentP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SharingValidatable",
-            "printedName": "SharingValidatable",
-            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
-            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -20426,6 +21089,42 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DependentAsType",
+            "printedName": "DependentAsType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "TypeDependencies",
+                "printedName": "TypeDependencies",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TypeDependencies",
+                    "printedName": "FBSDKShareKit.SharePhotoContent.TypeDependencies",
+                    "usr": "s:13FBSDKShareKit17SharePhotoContentC16TypeDependenciesV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:13FBSDKShareKit15DependentAsTypeP",
+            "mangledName": "$s13FBSDKShareKit15DependentAsTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharingContent",
+            "printedName": "SharingContent",
+            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingContent",
+            "mangledName": "$s13FBSDKShareKit14SharingContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharingValidatable",
+            "printedName": "SharingValidatable",
+            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
+            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
           }
         ]
       },
@@ -20502,10 +21201,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -20842,7 +21562,23 @@
         "declKind": "Protocol",
         "usr": "s:13FBSDKShareKit20ShareUtilityProtocolP",
         "mangledName": "$s13FBSDKShareKit20ShareUtilityProtocolP",
-        "moduleName": "FBSDKShareKit"
+        "moduleName": "FBSDKShareKit",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -21127,6 +21863,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -21358,7 +22108,23 @@
         "declKind": "Protocol",
         "usr": "s:13FBSDKShareKit15ShareValidatingP",
         "mangledName": "$s13FBSDKShareKit15ShareValidatingP",
-        "moduleName": "FBSDKShareKit"
+        "moduleName": "FBSDKShareKit",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -22212,6 +22978,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
@@ -22955,6 +23735,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
@@ -22987,6 +23781,20 @@
             "printedName": "ShareMedia",
             "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKShareMedia",
             "mangledName": "$s13FBSDKShareKit10ShareMediaP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -24305,7 +25113,23 @@
             "usr": "s:13FBSDKShareKit17ShareVideoContentC16TypeDependenciesV",
             "mangledName": "$s13FBSDKShareKit17ShareVideoContentC16TypeDependenciesV",
             "moduleName": "FBSDKShareKit",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -24677,39 +25501,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "DependentAsType",
-            "printedName": "DependentAsType",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "TypeDependencies",
-                "printedName": "TypeDependencies",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TypeDependencies",
-                    "printedName": "FBSDKShareKit.ShareVideoContent.TypeDependencies",
-                    "usr": "s:13FBSDKShareKit17ShareVideoContentC16TypeDependenciesV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:13FBSDKShareKit15DependentAsTypeP",
-            "mangledName": "$s13FBSDKShareKit15DependentAsTypeP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
-            "name": "SharingContent",
-            "printedName": "SharingContent",
-            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingContent",
-            "mangledName": "$s13FBSDKShareKit14SharingContentP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SharingValidatable",
-            "printedName": "SharingValidatable",
-            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
-            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -24759,6 +25561,42 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DependentAsType",
+            "printedName": "DependentAsType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "TypeDependencies",
+                "printedName": "TypeDependencies",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TypeDependencies",
+                    "printedName": "FBSDKShareKit.ShareVideoContent.TypeDependencies",
+                    "usr": "s:13FBSDKShareKit17ShareVideoContentC16TypeDependenciesV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:13FBSDKShareKit15DependentAsTypeP",
+            "mangledName": "$s13FBSDKShareKit15DependentAsTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharingContent",
+            "printedName": "SharingContent",
+            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingContent",
+            "mangledName": "$s13FBSDKShareKit14SharingContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SharingValidatable",
+            "printedName": "SharingValidatable",
+            "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
+            "mangledName": "$s13FBSDKShareKit18SharingValidatableP"
           }
         ]
       },
@@ -25094,6 +25932,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -25226,6 +26080,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -26014,6 +26884,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SharingValidatable",
             "printedName": "SharingValidatable",
             "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharingValidatable",
@@ -26169,6 +27053,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -26278,6 +27178,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sharing",
             "printedName": "Sharing",
             "usr": "c:@M@FBSDKShareKit@objc(pl)FBSDKSharing",
@@ -26345,6 +27259,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -26413,6 +27343,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SocialComposeViewControllerFactoryProtocol",
             "printedName": "SocialComposeViewControllerFactoryProtocol",
             "usr": "s:13FBSDKShareKit42SocialComposeViewControllerFactoryProtocolP",
@@ -26461,7 +27405,23 @@
         "declKind": "Protocol",
         "usr": "s:13FBSDKShareKit42SocialComposeViewControllerFactoryProtocolP",
         "mangledName": "$s13FBSDKShareKit42SocialComposeViewControllerFactoryProtocolP",
-        "moduleName": "FBSDKShareKit"
+        "moduleName": "FBSDKShareKit",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -26531,7 +27491,23 @@
         "declKind": "Protocol",
         "usr": "s:13FBSDKShareKit28UserInterfaceStringProvidingP",
         "mangledName": "$s13FBSDKShareKit28UserInterfaceStringProvidingP",
-        "moduleName": "FBSDKShareKit"
+        "moduleName": "FBSDKShareKit",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -27067,6 +28043,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ShareValidating",
             "printedName": "ShareValidating",
             "usr": "s:13FBSDKShareKit15ShareValidatingP",
@@ -27172,6 +28162,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Error",
                 "printedName": "Error",
                 "usr": "s:s5ErrorP",
@@ -27260,6 +28264,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -27753,6 +28771,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -28161,6 +29193,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
             "printedName": "_ObjectiveCBridgeable",
             "children": [
@@ -28252,6 +29298,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ShareDialogConfigurationProtocol",
             "printedName": "ShareDialogConfigurationProtocol",
             "usr": "s:13FBSDKShareKit32ShareDialogConfigurationProtocolP",
@@ -28301,6 +29361,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -28370,6 +29444,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIApplication",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "Available",
           "ObjC",
@@ -28385,6 +29460,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -28472,6 +29561,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -28540,20 +29643,6 @@
       "value": "1"
     },
     {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Content\/AppInviteContent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 560,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Content\/AppInviteContent.swift",
-      "kind": "StringLiteral",
-      "offset": 338,
-      "length": 16,
-      "value": "\"FBSDKShareKit.AppInviteContent\""
-    },
-    {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Content\/ContentFlags.swift",
       "kind": "BooleanLiteral",
       "offset": 367,
@@ -28575,11 +29664,95 @@
       "value": "false"
     },
     {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/FBSendButton.swift",
+      "kind": "StringLiteral",
+      "offset": 991,
+      "length": 6,
+      "value": "\"send\""
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/FBSendButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1096,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/FBSendButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1142,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/FBSendButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1216,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/FBSendButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1253,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/FBShareButton.swift",
+      "kind": "StringLiteral",
+      "offset": 942,
+      "length": 7,
+      "value": "\"share\""
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/FBShareButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1048,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/FBShareButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1094,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/FBShareButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1168,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/FBShareButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1205,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Content\/Hashtag.swift",
       "kind": "StringLiteral",
-      "offset": 354,
-      "length": 7,
-      "value": "\"FBSDKShareKit.Hashtag\""
+      "offset": 907,
+      "length": 43,
+      "value": "\"Invalid hashtag '\""
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Content\/Hashtag.swift",
+      "kind": "StringLiteral",
+      "offset": 948,
+      "length": 2,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Content\/Hashtag.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 9,
+      "value": "\"^#\\w+$\""
     },
     {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/MessageDialog.swift",
@@ -28828,80 +30001,52 @@
     },
     {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialog.swift",
-      "kind": "StringLiteral",
-      "offset": 400,
-      "length": 11,
-      "value": "\"FBSDKShareKit.ShareDialog\""
+      "kind": "BooleanLiteral",
+      "offset": 5831,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5895,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5927,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialog.swift",
       "kind": "Array",
-      "offset": 22528,
+      "offset": 22557,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialog.swift",
       "kind": "StringLiteral",
-      "offset": 31555,
+      "offset": 31584,
       "length": 8,
       "value": "\"app_id\""
     },
     {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialog.swift",
       "kind": "StringLiteral",
-      "offset": 31623,
+      "offset": 31652,
       "length": 10,
       "value": "\"hashtags\""
     },
     {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialog.swift",
       "kind": "StringLiteral",
-      "offset": 31694,
+      "offset": 31723,
       "length": 8,
       "value": "\"quotes\""
-    },
-    {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialogMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 692,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialogMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 772,
-      "length": 10,
-      "value": "2"
-    },
-    {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialogMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 832,
-      "length": 7,
-      "value": "3"
-    },
-    {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialogMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1058,
-      "length": 3,
-      "value": "4"
-    },
-    {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialogMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1286,
-      "length": 11,
-      "value": "5"
-    },
-    {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialogMode.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1526,
-      "length": 7,
-      "value": "6"
     },
     {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/ShareDialogMode.swift",
@@ -28981,34 +30126,6 @@
       "value": "203"
     },
     {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Core\/ShareError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 608,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Core\/ShareError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 687,
-      "length": 9,
-      "value": "201"
-    },
-    {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Core\/ShareError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 845,
-      "length": 18,
-      "value": "202"
-    },
-    {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Core\/ShareError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 913,
-      "length": 7,
-      "value": "203"
-    },
-    {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Content\/SharePhoto.swift",
       "kind": "BooleanLiteral",
       "offset": 3009,
@@ -29016,32 +30133,18 @@
       "value": "false"
     },
     {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Content\/SharePhoto.swift",
-      "kind": "StringLiteral",
-      "offset": 357,
-      "length": 10,
-      "value": "\"FBSDKShareKit.SharePhoto\""
-    },
-    {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Content\/SharePhotoContent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3474,
+      "offset": 3501,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Content\/SharePhotoContent.swift",
       "kind": "IntegerLiteral",
-      "offset": 3480,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/Content\/ShareVideo.swift",
-      "kind": "StringLiteral",
-      "offset": 344,
-      "length": 10,
-      "value": "\"FBSDKShareKit.ShareVideo\""
+      "offset": 3507,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/data\/sandcastle\/boxes\/trunk-git-facebook-ios-sdk\/FBSDKShareKit\/FBSDKShareKit\/UserInterface\/SocialComposeViewControllerFactory.swift",

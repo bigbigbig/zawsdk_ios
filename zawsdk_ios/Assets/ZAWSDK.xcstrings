@@ -1,6 +1,47 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Account already exists" : {
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อบัญชีมีอยู่แล้ว"
+          }
+        }
+      }
+    },
+    "Account Login" : {
+      "comment" : "账号登录",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบ"
+          }
+        }
+      }
+    },
+    "Account not exist" : {
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บัญชีไม่มีอยู่"
+          }
+        }
+      }
+    },
+    "Account or Password incorrect" : {
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บัญชีหรือรหัสไม่ถูกต้อง"
+          }
+        }
+      }
+    },
     "Apple Login" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -13,12 +54,12 @@
       }
     },
     "Binding" : {
-      "extractionState" : "manual",
+      "comment" : "Binding",
       "localizations" : {
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ผูกแล้ว"
+            "value" : "ผูกแล้ว:"
           }
         }
       }
@@ -45,8 +86,19 @@
         }
       }
     },
+    "Confirm" : {
+      "comment" : "确认",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยืนยัน"
+          }
+        }
+      }
+    },
     "Current Login" : {
-      "extractionState" : "manual",
+      "comment" : "Use Last Login",
       "localizations" : {
         "th" : {
           "stringUnit" : {
@@ -111,6 +163,28 @@
         }
       }
     },
+    "Last Login" : {
+      "comment" : "Last Login",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกอินปัจจุบัน"
+          }
+        }
+      }
+    },
+    "Login" : {
+      "comment" : "登录",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าสู่ระบบ"
+          }
+        }
+      }
+    },
     "Login failed" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -140,6 +214,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่"
+          }
+        }
+      }
+    },
+    "Password is not the same" : {
+      "comment" : "两次密码输入不一致",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รหัสผ่านไม่ตรงกัน"
           }
         }
       }
@@ -177,6 +262,50 @@
         }
       }
     },
+    "Please enter account" : {
+      "comment" : "请输入账号",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรุณากรอกหมายเลขบัญชี"
+          }
+        }
+      }
+    },
+    "Please enter information" : {
+      "comment" : "请填写信息",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรุณากรอกข้อมูล"
+          }
+        }
+      }
+    },
+    "Please enter password" : {
+      "comment" : "请输入密码",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรุณากรอกรหัสผ่าน"
+          }
+        }
+      }
+    },
+    "Please enter password again" : {
+      "comment" : "请再次输入密码",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรุณากรอกรหัสผ่านอีกครั้ง"
+          }
+        }
+      }
+    },
     "Please read and agree to the User Agreement and Privacy Policy" : {
       "comment" : "请阅读并同意页面协议",
       "localizations" : {
@@ -184,6 +313,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โปรดอ่านและยอมรับข้อตกลงการให้บริการและแนวทางการคุ้มครองความเป็นส่วนตัว"
+          }
+        }
+      }
+    },
+    "Register" : {
+      "comment" : "注册",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลงทะเบียน"
           }
         }
       }
@@ -200,7 +340,7 @@
       }
     },
     "Switch Account" : {
-      "extractionState" : "manual",
+      "comment" : "切换账号",
       "localizations" : {
         "th" : {
           "stringUnit" : {
@@ -222,7 +362,7 @@
       }
     },
     "User Center" : {
-      "extractionState" : "manual",
+      "comment" : "用户中心",
       "localizations" : {
         "th" : {
           "stringUnit" : {
@@ -239,6 +379,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "User Login"
+          }
+        }
+      }
+    },
+    "Verification failed, please log in again" : {
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตรวจสอบไม่ผ่าน กรุณาเข้าสู่ระบบอีกครั้ง"
           }
         }
       }
