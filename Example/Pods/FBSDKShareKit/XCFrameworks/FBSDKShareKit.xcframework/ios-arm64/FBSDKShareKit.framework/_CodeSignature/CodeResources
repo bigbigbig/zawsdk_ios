@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/FBSDKShareBridgeOptions.h</key>
 		<data>
-		UnSjaUXm5qLeLGXDUNVRzXY9NrQ=
+		PRcVIWI/lUKbLXj1doF8hG3WWQ4=
 		</data>
 		<key>Headers/FBSDKShareErrorDomain.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/FBSDKShareKit-Swift.h</key>
 		<data>
-		woqweU+D0mPZgeqjFRNMo0ugiV8=
+		sJUYcBWDie7F2w76ccQLlvlLhGo=
 		</data>
 		<key>Headers/FBSDKShareKit.h</key>
 		<data>
@@ -22,23 +22,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CvFSfR3k+J4o0q8afP3qWGeDVwo=
+		X3nXUMLmyD9IMEZJrNMxuYvPZDU=
 		</data>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		tIgngg1E7AkExLYkTksWjGFntYA=
+		MHIFHDB4UX4yF5gJM6m5SgL+8qs=
 		</data>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		D11NmFUNbN/qkuRUOFRs/0L33Sk=
+		eGfF8OneNghvIBPcC1Co+SgfyJw=
 		</data>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		daOrmszVPJ3oaocIbrn3NbGjEU8=
+		/omJo/X08UF1rbYFAFKFeh6DAok=
 		</data>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		D11NmFUNbN/qkuRUOFRs/0L33Sk=
+		eGfF8OneNghvIBPcC1Co+SgfyJw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IxpwBSGJEUrCXBdjRGpZ0yehzDl7wfNF5HReqM5qO/8=
+			Cku79zSceCw9+BVL+6EZxnI4F/e9pPBLtOuH6c+/yNQ=
 			</data>
 		</dict>
 		<key>Headers/FBSDKShareErrorDomain.h</key>
@@ -69,7 +69,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yFj0L4xo54JswtuwDvwpPxPGojigxrlMJEnUKsRK+1M=
+			8MZFJDykTKjCYaZjPdfWtqpX6WbQ0WFQTofxJ9v2uME=
 			</data>
 		</dict>
 		<key>Headers/FBSDKShareKit.h</key>
@@ -83,28 +83,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aYQnPZNWurEK8YTDjPUTRlh0faTgNnM8DKljm6zh5tY=
+			Adz4/K7B4m+NitylDSaE+vgPRTltSPmwyQzvWsl3+YE=
 			</data>
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s7DyZANZ+AkxX087IJX61f7YCc1Qf9KZuBL56jemO9c=
+			475dTihNVmpejZXdgWBHPw1+Ci/LtBMlADm0U466mtU=
 			</data>
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mDqb0yw7RhrvKpfuGgxYEdItObR6EEZt/fxW2pL4CAk=
+			JjluF4AKOCiiD9i+IgzeIN0Xt1BIiVadm4f/jnCEk28=
 			</data>
 		</dict>
 		<key>Modules/FBSDKShareKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s7DyZANZ+AkxX087IJX61f7YCc1Qf9KZuBL56jemO9c=
+			475dTihNVmpejZXdgWBHPw1+Ci/LtBMlADm0U466mtU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
