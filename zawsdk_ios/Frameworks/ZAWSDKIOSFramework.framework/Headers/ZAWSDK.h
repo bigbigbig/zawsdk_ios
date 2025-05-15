@@ -37,10 +37,12 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 typedef NS_ENUM(NSUInteger, ZAWLoginType) {
+    ZAWLoginTypeFastLogin = 0,
     ZAWLoginTypeFacebook = 1,
     ZAWLoginTypeGoogle,
     ZAWLoginTypeApple,
-    ZAWLoginTypeGuest
+    ZAWLoginTypeGuest,
+    ZAWLoginTypeAccount = 6
 };
 
 typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
