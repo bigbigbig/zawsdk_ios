@@ -1,6 +1,6 @@
 {
   "name": "zawsdk_ios",
-  "version": "0.2.8",
+  "version": "0.3.1",
   "summary": "zawsdk for ios",
   "description": "zawsdk ios hahahahhahaah",
   "homepage": "https://github.com/bigbigbig/zawsdk_ios.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/bigbigbig/zawsdk_ios.git",
-    "tag": "0.2.8"
+    "tag": "0.3.1"
   },
   "platforms": {
     "ios": "13.0"
@@ -39,7 +39,7 @@
       "~> 1.0.2"
     ],
     "Adjust": [
-      "~> 5.1.1"
+      "~> 5.4.0"
     ],
     "HBDNavigationBar": [
       "~> 1.9.6"
