@@ -59,7 +59,7 @@
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ผูกแล้ว:"
+            "value" : "ผูกแล้ว"
           }
         }
       }
@@ -104,6 +104,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล็อกอินปัจจุบัน"
+          }
+        }
+      }
+    },
+    "Delete Account" : {
+      "comment" : "删除账号",
+      "extractionState" : "manual",
+      "localizations" : {
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การลบบัญชี"
           }
         }
       }
