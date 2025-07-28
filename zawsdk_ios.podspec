@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zawsdk_ios'
-  s.version          = '0.3.2'
+  s.version          = '0.3.3'
   s.summary          = 'zawsdk for ios'
 
 # This description is used to generate tags and improve search results.
@@ -58,7 +58,6 @@ zawsdk ios hahahahhahaah
    s.public_header_files = 'zawsdk_ios/Classes/**/*.h'
    s.vendored_frameworks = 'zawsdk_ios/Frameworks/ZAWSDKIOSFramework.framework'
    s.frameworks = 'UIKit', 'Foundation'
-   s.dependency 'AFNetworking', '~> 4.0'
    s.dependency 'MFSIdentifier', '~> 1.0.2'
    s.dependency 'Adjust', '~> 5.4.0'
    s.dependency 'HBDNavigationBar', '~> 1.9.6'
