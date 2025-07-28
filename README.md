@@ -116,7 +116,7 @@ pod install
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[ZAWSDK sharedInstance]initWithChannel:@"8XXXX" appId:@"XX" appKey:@"XXXXXXXXXX" appleAppId:@"XXXXXXXX" policy_url:@"https://www.baidu.com" agreement_url:@"https://www.baidu.com" ad_token:@"XXXXXXXXXX" success:^{
+    [[ZAWSDK sharedInstance]initWithChannel:@"8XXXX" appId:@"XX" appKey:@"XXXXXXXXXX" appleAppId:@"XXXXXXXX" policy_url:@"https://隐私链接" agreement_url:@"https://隐私链接" ad_token:@"XXXXXXXXXX" success:^{
         
     }];
     return YES;
@@ -202,7 +202,7 @@ pod install
 #### 分享
 ```objective-c
 - (IBAction)share:(id)sender {
-    [[ZAWSDK sharedInstance]shareLinkToFacebook:@"https://www.baidu.com" fromViewController:self];
+    [[ZAWSDK sharedInstance]shareLinkToFacebook:@"https://下载页链接" fromViewController:self];
 }
 ```
 #### 上报adjust事件
