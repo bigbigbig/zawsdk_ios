@@ -3,10 +3,28 @@
   "strings" : {
     "Account already exists" : {
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аккаунт уже существует"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชื่อบัญชีมีอยู่แล้ว"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "账户已经存在"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "帳戶已經存在"
           }
         }
       }
@@ -14,30 +32,84 @@
     "Account Login" : {
       "comment" : "账号登录",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аккаунт"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "เข้าสู่ระบบ"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用户登录"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "帳號登入"
           }
         }
       }
     },
     "Account not exist" : {
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аккаунт не существует"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "บัญชีไม่มีอยู่"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "账户不存在"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "帳戶不存在"
           }
         }
       }
     },
     "Account or Password incorrect" : {
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка:Аккаунт или Пароль"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "บัญชีหรือรหัสไม่ถูกต้อง"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "账号或密码错误"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "帳號或密碼錯誤"
           }
         }
       }
@@ -45,10 +117,28 @@
     "Apple Login" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Вход"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "เข้าสู่ระบบด้วย Apple"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple 登录"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple 登入"
           }
         }
       }
@@ -56,10 +146,28 @@
     "Binding" : {
       "comment" : "Binding",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Привязка"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผูกแล้ว"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "绑定"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "綁定"
           }
         }
       }
@@ -67,10 +175,28 @@
     "Binding failed, please contact customer service" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка привязки(Связь с GM)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "การผูกล้มเหลว โปรดติดต่อฝ่ายบริการลูกค้า"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "绑定失败，请联系客服"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "綁定失敗，請聯繫客服"
           }
         }
       }
@@ -78,10 +204,28 @@
     "Binding successful" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Успешная привязка"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "การผูกสำเร็จ"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "绑定成功"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "綁定成功"
           }
         }
       }
@@ -89,10 +233,28 @@
     "Confirm" : {
       "comment" : "确认",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подтв."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยืนยัน"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确认"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認"
           }
         }
       }
@@ -100,10 +262,28 @@
     "Current Login" : {
       "comment" : "Use Last Login",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текущий вход"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล็อกอินปัจจุบัน"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前登录"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當前登入"
           }
         }
       }
@@ -112,10 +292,28 @@
       "comment" : "删除账号",
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить аккаунт"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "การลบบัญชี"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除账号"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除帳號"
           }
         }
       }
@@ -123,10 +321,28 @@
     "Do you want to exit the game?" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы хотите выйти?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "คุณต้องการออกจากเกมหรือไม่"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你想要退出游戏么?"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你想要退出遊戲麼?"
           }
         }
       }
@@ -134,10 +350,28 @@
     "Facebook Login" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FB вход"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "เข้าสู่ระบบด้วย Facebook"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Facebook 登录"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Facebook 登入"
           }
         }
       }
@@ -145,10 +379,28 @@
     "Google Login" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Google Вход"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "เข้าสู่ระบบด้วย Google"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Google 登录"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Google 登入"
           }
         }
       }
@@ -156,10 +408,28 @@
     "Guest Login" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гостевой вход"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guest Login"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "游客登录"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遊客登入"
           }
         }
       }
@@ -167,10 +437,28 @@
     "I have read and agreed to the" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я ознакомлен(а) и согласен(на) с"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฉันได้อ่านรายละเอียดและยอมรับ"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我已经阅读并同意用户协议和隐私协议"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我已經閱讀並同意"
           }
         }
       }
@@ -178,10 +466,28 @@
     "Last Login" : {
       "comment" : "Last Login",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Последний вход"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล็อกอินปัจจุบัน"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近登录"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近登入"
           }
         }
       }
@@ -189,10 +495,28 @@
     "Login" : {
       "comment" : "登录",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вход"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "เข้าสู่ระบบ"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登录"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登入"
           }
         }
       }
@@ -200,10 +524,28 @@
     "Login failed" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка входа"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "การเข้าสู่ระบบล้มเหลว"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登录失败"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登入失敗"
           }
         }
       }
@@ -211,10 +553,28 @@
     "Login successful" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Успешный вход"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "การเข้าสู่ระบบสำเร็จ"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登录成功"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登入成功"
           }
         }
       }
@@ -222,10 +582,28 @@
     "no" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不是"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不是"
           }
         }
       }
@@ -233,10 +611,28 @@
     "Password is not the same" : {
       "comment" : "两次密码输入不一致",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неверный пароль"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "รหัสผ่านไม่ตรงกัน"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密码不一致"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密碼不一致"
           }
         }
       }
@@ -244,10 +640,28 @@
     "Payment canceled" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена платежа"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยกเลิกการชำระเงิน"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支付取消"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支付取消"
           }
         }
       }
@@ -255,10 +669,28 @@
     "Payment failed" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка платежа"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "การชำระเงินล้มเหลว"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支付失败"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支付失敗"
           }
         }
       }
@@ -266,10 +698,28 @@
     "Please check and agree User Agreement and Privacy Policy first." : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сначала ознакомьтесь с Пользовательским соглашением и Политикой конфиденциальности"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "โปรดเลือกก่อนว่าฉันได้อ่าน/ข้อตกลงการลงทะเบียนผู้ใช้และนโยบายความเป็นส่วนตัว"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请先阅读并同意用户协议和隐私协议"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請先閱讀並同意用戶協議和隱私協議"
           }
         }
       }
@@ -277,10 +727,28 @@
     "Please enter account" : {
       "comment" : "请输入账号",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод аккаунта"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "กรุณากรอกหมายเลขบัญชี"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请输入您的账号"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請輸入您的帳號"
           }
         }
       }
@@ -288,10 +756,28 @@
     "Please enter information" : {
       "comment" : "请填写信息",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод данных"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "กรุณากรอกข้อมูล"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请输入信息"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請輸入資訊"
           }
         }
       }
@@ -299,10 +785,28 @@
     "Please enter password" : {
       "comment" : "请输入密码",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввод пароля"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "กรุณากรอกรหัสผ่าน"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请输入您的密码"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請輸入您的密碼"
           }
         }
       }
@@ -310,10 +814,28 @@
     "Please enter password again" : {
       "comment" : "请再次输入密码",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повторите пароль"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "กรุณากรอกรหัสผ่านอีกครั้ง"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请再次输入密码"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請再次輸入密碼"
           }
         }
       }
@@ -321,10 +843,28 @@
     "Please read and agree to the User Agreement and Privacy Policy" : {
       "comment" : "请阅读并同意页面协议",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сначала ознакомьтесь с Пользовательским соглашением и Политикой конфиденциальности"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "โปรดอ่านและยอมรับข้อตกลงการให้บริการและแนวทางการคุ้มครองความเป็นส่วนตัว"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请先阅读并同意用户协议和隐私协议"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請先閱讀並同意用戶協議和隱私協議"
           }
         }
       }
@@ -332,10 +872,28 @@
     "Register" : {
       "comment" : "注册",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Регистрация"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลงทะเบียน"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "注册"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "註冊"
           }
         }
       }
@@ -343,10 +901,28 @@
     "Settings" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設置"
           }
         }
       }
@@ -354,10 +930,28 @@
     "Switch Account" : {
       "comment" : "切换账号",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Смена"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "สลับบัญชี"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切换账号"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切換帳號"
           }
         }
       }
@@ -365,10 +959,28 @@
     "User Agreement and Privacy Policy" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пользовательским соглашением и Политикой конфиденциальности"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้อตกลงการลงทะเบียนผู้ใช้และนโยบายความเป็นส่วนตัว"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用户协议和隐私协议"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用戶協議和隱私協議"
           }
         }
       }
@@ -376,10 +988,28 @@
     "User Center" : {
       "comment" : "用户中心",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Центр"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ศูนย์ผู้ใช้งาน"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用户中心"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用戶中心"
           }
         }
       }
@@ -387,20 +1017,56 @@
     "User Login" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вход"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "User Login"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用户登录"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用戶登入"
           }
         }
       }
     },
     "Verification failed, please log in again" : {
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка проверки.Войдите снова"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "การตรวจสอบไม่ผ่าน กรุณาเข้าสู่ระบบอีกครั้ง"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "验证失败，请重新登录"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "驗證失敗，請重新登入"
           }
         }
       }
@@ -408,10 +1074,28 @@
     "yes" : {
       "extractionState" : "manual",
       "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Да"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช่"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "是"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "是"
           }
         }
       }
