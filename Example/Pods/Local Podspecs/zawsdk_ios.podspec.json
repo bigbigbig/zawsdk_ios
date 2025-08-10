@@ -1,6 +1,6 @@
 {
   "name": "zawsdk_ios",
-  "version": "0.3.6",
+  "version": "0.3.8",
   "summary": "zawsdk for ios",
   "description": "zawsdk ios hahahahhahaah",
   "homepage": "https://github.com/bigbigbig/zawsdk_ios.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/bigbigbig/zawsdk_ios.git",
-    "tag": "0.3.6"
+    "tag": "0.3.8"
   },
   "platforms": {
     "ios": "13.0"
@@ -33,64 +33,64 @@
   ],
   "dependencies": {
     "MFSIdentifier": [
-      "~> 1.0.2"
+      "1.0.2"
     ],
     "Adjust": [
-      "~> 5.4.0"
+      "5.4.0"
     ],
     "HBDNavigationBar": [
-      "~> 1.9.6"
+      "1.9.8"
     ],
     "SDWebImage": [
-      "~> 5.19.2"
+      "5.19.7"
     ],
     "Masonry": [
-      "~> 1.1.0"
+      "1.1.0"
     ],
     "YYCategories": [
-      "~> 1.0.4"
+      "1.0.4"
     ],
     "YYModel": [
-      "~> 1.0.4"
+      "1.0.4"
     ],
     "SVProgressHUD": [
-      "~> 2.3.1"
+      "2.3.1"
     ],
     "MZFormSheetPresentationController": [
-      "~> 2.4.3"
+      "2.4.3"
     ],
     "GoogleUtilities": [
-      "~> 8.0.2"
+      "8.0.2"
     ],
     "GoogleSignIn": [
-      "~> 8.0.0"
+      "8.0.0"
     ],
     "FBSDKCoreKit": [
-      "~> 18.0.0"
+      "18.0.0"
     ],
     "FBSDKLoginKit": [
-      "~> 18.0.0"
+      "18.0.0"
     ],
     "FBSDKShareKit": [
-      "~> 18.0.0"
+      "18.0.0"
     ],
     "FirebaseCore": [
-      "~> 11.9.0"
+      "11.9.0"
     ],
     "FirebaseCoreExtension": [
-      "~> 11.9.0"
+      "11.9.0"
     ],
     "FirebaseFirestoreInternal": [
-      "~> 11.9.0"
+      "11.9.0"
     ],
     "FirebaseAnalytics": [
-      "~> 11.9.0"
+      "11.9.0"
     ],
     "FirebaseAuth": [
-      "~> 11.9.0"
+      "11.9.0"
     ],
     "FirebaseFirestore": [
-      "~> 11.9.0"
+      "11.9.0"
     ]
   }
 }
