@@ -18,7 +18,7 @@ pod 'zawsdk_ios'
 ```
 #### 你必须引入索引库
 ```ruby
-source 'https://cdn.cocoapods.org/'
+source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/bigbigbig/mySpecs.git'
 ```
 #### 你必须使用 use_framework!
@@ -29,7 +29,7 @@ use_frameworks!
 ```ruby
 platform :ios, '13.0'
 
-source 'https://cdn.cocoapods.org/'
+source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/bigbigbig/mySpecs.git'
 
 use_frameworks!
@@ -43,7 +43,7 @@ target 'ZAWSDKIOSTestDemo' do
         config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
       end
       if target.name == 'BoringSSL-GRPC'
-        target.source_build_phase.files.each do |file|
+        target._build_phase.files.each do |file|
           if file.settings && file.settings['COMPILER_FLAGS']
             flags = file.settings['COMPILER_FLAGS'].split
             flags.reject! { |flag| flag == '-GCC_WARN_INHIBIT_ALL_WARNINGS' }
@@ -211,7 +211,7 @@ pod install
 ```
 ## 配置项目
 #### Facebook 配置
-右键点击 Info.plist，然后选择 Open As（打开方式）▸ Source Code（源代码）。<br>
+右键点击 Info.plist，然后选择 Open As（打开方式）▸  Code（源代码）。<br>
 将下列 XML 代码片段复制并粘贴到文件正文中 (<dict>...</dict>)。
 ```xml
 <key>CFBundleURLTypes</key>
