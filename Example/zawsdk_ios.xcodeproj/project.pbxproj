@@ -24,6 +24,7 @@
 		81B1DC04C9E232CA7E0E7771 /* Pods_zawsdk_ios_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821A5CF0EBDF0D2B20AF5535 /* Pods_zawsdk_ios_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C598C9769B4D99CC705509CA /* Pods_zawsdk_ios_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67F2D435D24FF2D9D5B5C44 /* Pods_zawsdk_ios_Tests.framework */; };
+		EB5BDBA42E575BDA00B2BB30 /* zawsdk_ios-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB5BDBA32E575BDA00B2BB30 /* zawsdk_ios-Info.plist */; };
 		EBAD75822CCF6CB800ABAC33 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EBAD75812CCF6CB800ABAC33 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,7 @@
 		CC55E50F827DFD3EC671AD58 /* Pods-zawsdk_ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zawsdk_ios_Example.release.xcconfig"; path = "Target Support Files/Pods-zawsdk_ios_Example/Pods-zawsdk_ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D67F2D435D24FF2D9D5B5C44 /* Pods_zawsdk_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zawsdk_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02814928A85D9BB6BE21FB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB5BDBA32E575BDA00B2BB30 /* zawsdk_ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zawsdk_ios-Info.plist"; sourceTree = "<group>"; };
 		EBAD75812CCF6CB800ABAC33 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		EBB2B1922E45DE1300E90594 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		EBB2B1932E45DE2700E90594 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		6003F593195388D20070C39A /* Example for zawsdk_ios */ = {
 			isa = PBXGroup;
 			children = (
+				EB5BDBA32E575BDA00B2BB30 /* zawsdk_ios-Info.plist */,
 				EBAD75812CCF6CB800ABAC33 /* Localizable.xcstrings */,
 				6003F59C195388D20070C39A /* ZTAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZTAppDelegate.m */,
@@ -305,6 +308,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				EBAD75822CCF6CB800ABAC33 /* Localizable.xcstrings in Resources */,
+				EB5BDBA42E575BDA00B2BB30 /* zawsdk_ios-Info.plist in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -473,10 +477,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-zawsdk_ios_Example/Pods-zawsdk_ios_Example-resources.sh",
+				"${PODS_ROOT}/VKCaptchaSDK/VKCaptchaSDK-0.1.1/VKCaptchaSDKResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/VKID/VKID-Resources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/VKIDCore/VKID-Core-Resources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/zawsdk_ios/bundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKCaptchaSDKResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKID-Resources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKID-Core-Resources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -627,9 +637,10 @@
 				DEVELOPMENT_TEAM = S5KQF2T2FU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zawsdk_ios/zawsdk_ios-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "zawsdk_ios/zawsdk_ios-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pirate.master.mmo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martial.heroes.th;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -644,9 +655,10 @@
 				DEVELOPMENT_TEAM = S5KQF2T2FU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zawsdk_ios/zawsdk_ios-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "zawsdk_ios/zawsdk_ios-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pirate.master.mmo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martial.heroes.th;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

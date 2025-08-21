@@ -3,10 +3,11 @@ use_frameworks!
 platform :ios, '13.0'
 
 source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://github.com/bigbigbig/mySpecs.git'
 
 target 'zawsdk_ios_Example' do
   pod 'zawsdk_ios', :path => '../'
-
+#  pod 'zawsdk_vk_ios', '0.4.0'
   target 'zawsdk_ios_Tests' do
     inherit! :search_paths
 

@@ -42,7 +42,8 @@ typedef NS_ENUM(NSUInteger, ZAWLoginType) {
     ZAWLoginTypeGoogle,
     ZAWLoginTypeApple,
     ZAWLoginTypeGuest,
-    ZAWLoginTypeAccount = 6
+    ZAWLoginTypeAccount = 6,
+    ZAWLoginTypeVK = 7,
 };
 
 typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
