@@ -277,12 +277,25 @@ WebKit.framework  只有在应用使用 web 视图时才有必要
 将下列 XML 代码片段复制并粘贴到文件正文中 (<dict>...</dict>)。
 ```xml
     <key>VKClientID</key>
-    <string>vk_app_id</string>
+    <string>{vk_app_id}</string>
     <key>VKClientSecrect</key>
-    <string>vk_secure_secret</string>
+    <string>{vk_secure_secret}</string>
     <key>LSApplicationQueriesSchemes</key>
     <array>
         <string>vkauthorize-silent</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>auth_callback</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>vk{vk_app_id}</string>
+        </array>
+      </dict>
     </array>
 ```
 #### 项目其它配置
