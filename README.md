@@ -267,6 +267,24 @@ AdServices.framework<br>
 StoreKit.framework<br>
 AppTrackingTransparency.framework<br>
 WebKit.framework  只有在应用使用 web 视图时才有必要
+#### VK配置(可选)
+如果项目中需要接入 vk 登录，可选择加入此配置
+在Podfile中添加依赖
+```shell
+  pod 'zawsdk_vk_ios', '0.4.0'
+```
+右键点击 Info.plist，然后选择 Open As（打开方式）▸  Code（源代码）。<br>
+将下列 XML 代码片段复制并粘贴到文件正文中 (<dict>...</dict>)。
+```xml
+    <key>VKClientID</key>
+    <string>vk_app_id</string>
+    <key>VKClientSecrect</key>
+    <string>vk_secure_secret</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>vkauthorize-silent</string>
+    </array>
+```
 #### 项目其它配置
 1、打开项目配置：在左侧的树状视图中点击项目名称 > 在Targets中选择您的应用 > 选择Build Settings标签页<br>
 在 Build Options 选项中 将 User Script Sandboxing 设置为 No<br>
