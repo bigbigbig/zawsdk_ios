@@ -271,7 +271,7 @@ WebKit.framework  只有在应用使用 web 视图时才有必要
 如果项目中需要接入 vk 登录，可选择加入此配置
 在Podfile中添加依赖
 ```shell
-  pod 'zawsdk_vk_ios', '0.4.0'
+  pod 'zawsdk_vk_ios'
 ```
 右键点击 Info.plist，然后选择 Open As（打开方式）▸  Code（源代码）。<br>
 将下列 XML 代码片段复制并粘贴到文件正文中 (<dict>...</dict>)。
