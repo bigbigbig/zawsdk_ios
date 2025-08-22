@@ -1467,17 +1467,11 @@ PODS:
   - SVProgressHUD (2.3.1):
     - SVProgressHUD/Core (= 2.3.1)
   - SVProgressHUD/Core (2.3.1)
-  - VKCaptchaSDK (0.1.1)
-  - VKID (2.7.0):
-    - VKCaptchaSDK (= 0.1.1)
-    - VKIDCore (= 2.7.0)
-  - VKIDCore (2.7.0):
-    - VKCaptchaSDK (= 0.1.1)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
   - YYModel (1.0.4)
-  - zawsdk_ios (0.3.9):
+  - zawsdk_ios (0.4.1):
     - Adjust (= 5.4.0)
     - FBSDKCoreKit (= 18.0.0)
     - FBSDKLoginKit (= 18.0.0)
@@ -1498,16 +1492,11 @@ PODS:
     - SVProgressHUD (= 2.3.1)
     - YYCategories (= 1.0.4)
     - YYModel (= 1.0.4)
-  - zawsdk_vk_ios (0.4.0):
-    - VKID (= 2.7.0)
 
 DEPENDENCIES:
   - zawsdk_ios (from `../`)
-  - zawsdk_vk_ios (= 0.4.0)
 
 SPEC REPOS:
-  https://github.com/bigbigbig/mySpecs.git:
-    - zawsdk_vk_ios
   https://github.com/CocoaPods/Specs.git:
     - abseil
     - Adjust
@@ -1551,9 +1540,6 @@ SPEC REPOS:
     - RecaptchaInterop
     - SDWebImage
     - SVProgressHUD
-    - VKCaptchaSDK
-    - VKID
-    - VKIDCore
     - YYCategories
     - YYModel
 
@@ -1604,14 +1590,10 @@ SPEC CHECKSUMS:
   RecaptchaInterop: 11e0b637842dfb48308d242afc3f448062325aba
   SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
   SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
-  VKCaptchaSDK: 35a893326f08e9bfd467c680cb83ff984357068b
-  VKID: 3fc9c558091f63176a231ad1b07f60157c64a155
-  VKIDCore: 7a87a4358d53347fd4696334e884ac1c33fe116b
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
-  zawsdk_ios: 4e04953eef6f9c765943d4bc161f36a6bee42418
-  zawsdk_vk_ios: 10ba7603a4602e97387f872b42e8697603741ab9
+  zawsdk_ios: 9a00b02d98b99563df5f1db1e0dfd6fdfa16425a
 
-PODFILE CHECKSUM: 34964336663e768475f8cab6bdc285a92267b0e5
+PODFILE CHECKSUM: b7df353c4dd59a79dda35d9c74e9c9d8947da396
 
 COCOAPODS: 1.16.2

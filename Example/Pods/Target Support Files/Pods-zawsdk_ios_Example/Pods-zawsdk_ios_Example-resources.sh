@@ -97,15 +97,9 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/VKCaptchaSDK/VKCaptchaSDK-0.1.1/VKCaptchaSDKResources.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/VKID/VKID-Resources.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/VKIDCore/VKID-Core-Resources.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/zawsdk_ios/bundle.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/VKCaptchaSDK/VKCaptchaSDK-0.1.1/VKCaptchaSDKResources.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/VKID/VKID-Resources.bundle"
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/VKIDCore/VKID-Core-Resources.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/zawsdk_ios/bundle.bundle"
 fi
 

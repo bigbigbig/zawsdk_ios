@@ -477,16 +477,10 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-zawsdk_ios_Example/Pods-zawsdk_ios_Example-resources.sh",
-				"${PODS_ROOT}/VKCaptchaSDK/VKCaptchaSDK-0.1.1/VKCaptchaSDKResources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/VKID/VKID-Resources.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/VKIDCore/VKID-Core-Resources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/zawsdk_ios/bundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKCaptchaSDKResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKID-Resources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKID-Core-Resources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

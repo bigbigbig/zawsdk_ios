@@ -421,6 +421,53 @@
         }
       }
     },
+    "Bound" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linked"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Привязано"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已绑定"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已綁定"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已绑定"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已綁定"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "已綁定"
+          }
+        }
+      }
+    },
     "Cancel" : {
       "extractionState" : "manual",
       "localizations" : {
