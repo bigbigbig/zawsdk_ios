@@ -7,15 +7,16 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-//#import "ZAWLoginModel.h"
-//#import "ZAWUserRoleInfo.h"
-//#import "ZAWPayModel.h"
-//#import "ZAWUserPayQuery.h"
+#import "ZAWLoginModel.h"
+#import "ZAWUserRoleInfo.h"
+#import "ZAWPayModel.h"
+#import "ZAWUserPayQuery.h"
 
-#import <ZAWSDKIOSFramework/ZAWLoginModel.h>
-#import <ZAWSDKIOSFramework/ZAWUserRoleInfo.h>
-#import <ZAWSDKIOSFramework/ZAWPayModel.h>
-#import <ZAWSDKIOSFramework/ZAWUserPayQuery.h>
+/*
+ #import <ZAWSDKIOSFramework/ZAWLoginModel.h>
+ #import <ZAWSDKIOSFramework/ZAWUserRoleInfo.h>
+ #import <ZAWSDKIOSFramework/ZAWPayModel.h>
+ #import <ZAWSDKIOSFramework/ZAWUserPayQuery.h>*/
 
 #ifdef __cplusplus
 #define ZAWSDK_EXTERN        extern "C" __attribute__((visibility ("default")))
@@ -114,7 +115,7 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
                     cpOrderId:(NSString *)cpOrderId
                     extraInfo:(NSString *)extra_info
                       success:(nullable void (^)(ZAWPayModel *payModel))success
-                      failure:(nullable void (^)(NSInteger code, NSString *message))failure;
+                      failure:(nullable void (^)(NSInteger code, NSString *message, NSString *cpOrderId))failure;
 
 // 支付结果查询
 - (void)queryPayWithOrderId:(NSString *)orderId
@@ -122,7 +123,6 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
                      billNo:(NSString *)billNo
                     success:(nullable void (^)(ZAWUserPayQuery *payModel))success
                     failure:(nullable void (^)(NSInteger code, NSString *message))failure;
-
 
 //删除账号
 - (void)deleteAccount;
@@ -136,6 +136,7 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
 
 //分享
 - (void)shareLinkToFacebook:(NSString *)link
+                      quote:(NSString *)quote
          fromViewController:(UIViewController *)viewController;
 
 - (void)saveLoginInfo:(ZAWUserLoginMessage *)message;
@@ -150,6 +151,7 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
 - (NSString *)getAgreementUrl;
 + (NSInteger)getLastLoginType;
 + (NSInteger)getLastBindType;
+
 @end
 
 // SDK初始化结果通知

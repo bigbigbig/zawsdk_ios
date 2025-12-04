@@ -49,7 +49,7 @@
 }
 
 - (IBAction)share:(id)sender {
-    [[ZAWSDK sharedInstance]shareLinkToFacebook:@"https://www.baidu.com" fromViewController:self];
+    [[ZAWSDK sharedInstance]shareLinkToFacebook:@"https://www.baidu.com" quote:nil fromViewController:self];
 }
 
 - (IBAction)bind:(id)sender {
@@ -66,7 +66,7 @@
     NSString *orderId = [NSString stringWithFormat:@"%ld", (long)[datenow timeIntervalSince1970]];
     [[ZAWSDK sharedInstance]payFromViewController:self amount:@"1.0" serverId:@"s1" subject:@"goods" subjectId:product_id isTest:0 cpOrderId:orderId extraInfo:@"extra_info" success:^(ZAWPayModel * _Nonnull payModel) {
             NSLog(@"ZAWSDK pay:::success:::%@", [payModel description]);
-        } failure:^(NSInteger code, NSString * _Nonnull message) {
+    } failure:^(NSInteger code, NSString * _Nonnull message, NSString * _Nonnull cpOrderId) {
             NSLog(@"ZAWSDK pay:::failure:::%@", message);
         }];
 }

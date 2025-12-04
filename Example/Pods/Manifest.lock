@@ -1193,11 +1193,11 @@ PODS:
   - Adjust/Adjust (5.4.0):
     - AdjustSignature (= 3.35.2)
   - AdjustSignature (3.35.2)
-  - AppAuth (1.7.6):
-    - AppAuth/Core (= 1.7.6)
-    - AppAuth/ExternalUserAgent (= 1.7.6)
-  - AppAuth/Core (1.7.6)
-  - AppAuth/ExternalUserAgent (1.7.6):
+  - AppAuth (2.0.0):
+    - AppAuth/Core (= 2.0.0)
+    - AppAuth/ExternalUserAgent (= 2.0.0)
+  - AppAuth/Core (2.0.0)
+  - AppAuth/ExternalUserAgent (2.0.0):
     - AppAuth/Core
   - AppCheckCore (11.2.0):
     - GoogleUtilities/Environment (~> 8.0)
@@ -1219,49 +1219,49 @@ PODS:
     - FBSDKCoreKit (= 18.0.0)
   - FBSDKShareKit (18.0.0):
     - FBSDKCoreKit (= 18.0.0)
-  - FirebaseAnalytics (11.9.0):
-    - FirebaseAnalytics/AdIdSupport (= 11.9.0)
-    - FirebaseCore (~> 11.9.0)
-    - FirebaseInstallations (~> 11.0)
-    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
-    - GoogleUtilities/MethodSwizzler (~> 8.0)
-    - GoogleUtilities/Network (~> 8.0)
-    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+  - FirebaseAnalytics (12.6.0):
+    - FirebaseAnalytics/Default (= 12.6.0)
+    - FirebaseCore (~> 12.6.0)
+    - FirebaseInstallations (~> 12.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.1)
+    - GoogleUtilities/MethodSwizzler (~> 8.1)
+    - GoogleUtilities/Network (~> 8.1)
+    - "GoogleUtilities/NSData+zlib (~> 8.1)"
     - nanopb (~> 3.30910.0)
-  - FirebaseAnalytics/AdIdSupport (11.9.0):
-    - FirebaseCore (~> 11.9.0)
-    - FirebaseInstallations (~> 11.0)
-    - GoogleAppMeasurement (= 11.9.0)
-    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
-    - GoogleUtilities/MethodSwizzler (~> 8.0)
-    - GoogleUtilities/Network (~> 8.0)
-    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+  - FirebaseAnalytics/Default (12.6.0):
+    - FirebaseCore (~> 12.6.0)
+    - FirebaseInstallations (~> 12.6.0)
+    - GoogleAppMeasurement/Default (= 12.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.1)
+    - GoogleUtilities/MethodSwizzler (~> 8.1)
+    - GoogleUtilities/Network (~> 8.1)
+    - "GoogleUtilities/NSData+zlib (~> 8.1)"
     - nanopb (~> 3.30910.0)
-  - FirebaseAppCheckInterop (11.15.0)
-  - FirebaseAuth (11.9.0):
-    - FirebaseAppCheckInterop (~> 11.0)
-    - FirebaseAuthInterop (~> 11.0)
-    - FirebaseCore (~> 11.9.0)
-    - FirebaseCoreExtension (~> 11.9.0)
-    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
-    - GoogleUtilities/Environment (~> 8.0)
-    - GTMSessionFetcher/Core (< 5.0, >= 3.4)
+  - FirebaseAppCheckInterop (12.6.0)
+  - FirebaseAuth (12.6.0):
+    - FirebaseAppCheckInterop (~> 12.6.0)
+    - FirebaseAuthInterop (~> 12.6.0)
+    - FirebaseCore (~> 12.6.0)
+    - FirebaseCoreExtension (~> 12.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.1)
+    - GoogleUtilities/Environment (~> 8.1)
+    - GTMSessionFetcher/Core (< 6.0, >= 3.4)
     - RecaptchaInterop (~> 101.0)
-  - FirebaseAuthInterop (11.15.0)
-  - FirebaseCore (11.9.0):
-    - FirebaseCoreInternal (~> 11.9.0)
-    - GoogleUtilities/Environment (~> 8.0)
-    - GoogleUtilities/Logger (~> 8.0)
-  - FirebaseCoreExtension (11.9.0):
-    - FirebaseCore (~> 11.9.0)
-  - FirebaseCoreInternal (11.9.0):
-    - "GoogleUtilities/NSData+zlib (~> 8.0)"
-  - FirebaseFirestore (11.9.0):
-    - FirebaseCore (~> 11.9.0)
-    - FirebaseCoreExtension (~> 11.9.0)
-    - FirebaseFirestoreInternal (= 11.9.0)
-    - FirebaseSharedSwift (~> 11.0)
-  - FirebaseFirestoreInternal (11.9.0):
+  - FirebaseAuthInterop (12.6.0)
+  - FirebaseCore (12.6.0):
+    - FirebaseCoreInternal (~> 12.6.0)
+    - GoogleUtilities/Environment (~> 8.1)
+    - GoogleUtilities/Logger (~> 8.1)
+  - FirebaseCoreExtension (12.6.0):
+    - FirebaseCore (~> 12.6.0)
+  - FirebaseCoreInternal (12.6.0):
+    - "GoogleUtilities/NSData+zlib (~> 8.1)"
+  - FirebaseFirestore (12.6.0):
+    - FirebaseCore (~> 12.6.0)
+    - FirebaseCoreExtension (~> 12.6.0)
+    - FirebaseFirestoreInternal (~> 12.6.0)
+    - FirebaseSharedSwift (~> 12.6.0)
+  - FirebaseFirestoreInternal (12.6.0):
     - abseil/algorithm (~> 1.20240722.0)
     - abseil/base (~> 1.20240722.0)
     - abseil/container/flat_hash_map (~> 1.20240722.0)
@@ -1270,81 +1270,88 @@ PODS:
     - abseil/strings/strings (~> 1.20240722.0)
     - abseil/time (~> 1.20240722.0)
     - abseil/types (~> 1.20240722.0)
-    - FirebaseAppCheckInterop (~> 11.0)
-    - FirebaseCore (~> 11.9.0)
+    - FirebaseAppCheckInterop (~> 12.6.0)
+    - FirebaseCore (~> 12.6.0)
     - "gRPC-C++ (~> 1.69.0)"
     - gRPC-Core (~> 1.69.0)
     - leveldb-library (~> 1.22)
     - nanopb (~> 3.30910.0)
-  - FirebaseInstallations (11.9.0):
-    - FirebaseCore (~> 11.9.0)
-    - GoogleUtilities/Environment (~> 8.0)
-    - GoogleUtilities/UserDefaults (~> 8.0)
+  - FirebaseInstallations (12.6.0):
+    - FirebaseCore (~> 12.6.0)
+    - GoogleUtilities/Environment (~> 8.1)
+    - GoogleUtilities/UserDefaults (~> 8.1)
     - PromisesObjC (~> 2.4)
-  - FirebaseSharedSwift (11.15.0)
-  - GoogleAppMeasurement (11.9.0):
-    - GoogleAppMeasurement/AdIdSupport (= 11.9.0)
-    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
-    - GoogleUtilities/MethodSwizzler (~> 8.0)
-    - GoogleUtilities/Network (~> 8.0)
-    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+  - FirebaseSharedSwift (12.6.0)
+  - GoogleAdsOnDeviceConversion (3.2.0):
+    - GoogleUtilities/Environment (~> 8.1)
+    - GoogleUtilities/Logger (~> 8.1)
+    - GoogleUtilities/Network (~> 8.1)
     - nanopb (~> 3.30910.0)
-  - GoogleAppMeasurement/AdIdSupport (11.9.0):
-    - GoogleAppMeasurement/WithoutAdIdSupport (= 11.9.0)
-    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
-    - GoogleUtilities/MethodSwizzler (~> 8.0)
-    - GoogleUtilities/Network (~> 8.0)
-    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+  - GoogleAppMeasurement/Core (12.6.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.1)
+    - GoogleUtilities/MethodSwizzler (~> 8.1)
+    - GoogleUtilities/Network (~> 8.1)
+    - "GoogleUtilities/NSData+zlib (~> 8.1)"
     - nanopb (~> 3.30910.0)
-  - GoogleAppMeasurement/WithoutAdIdSupport (11.9.0):
-    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
-    - GoogleUtilities/MethodSwizzler (~> 8.0)
-    - GoogleUtilities/Network (~> 8.0)
-    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+  - GoogleAppMeasurement/Default (12.6.0):
+    - GoogleAdsOnDeviceConversion (~> 3.2.0)
+    - GoogleAppMeasurement/Core (= 12.6.0)
+    - GoogleAppMeasurement/IdentitySupport (= 12.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.1)
+    - GoogleUtilities/MethodSwizzler (~> 8.1)
+    - GoogleUtilities/Network (~> 8.1)
+    - "GoogleUtilities/NSData+zlib (~> 8.1)"
     - nanopb (~> 3.30910.0)
-  - GoogleSignIn (8.0.0):
-    - AppAuth (< 2.0, >= 1.7.3)
+  - GoogleAppMeasurement/IdentitySupport (12.6.0):
+    - GoogleAppMeasurement/Core (= 12.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.1)
+    - GoogleUtilities/MethodSwizzler (~> 8.1)
+    - GoogleUtilities/Network (~> 8.1)
+    - "GoogleUtilities/NSData+zlib (~> 8.1)"
+    - nanopb (~> 3.30910.0)
+  - GoogleSignIn (9.0.0):
+    - AppAuth (~> 2.0)
     - AppCheckCore (~> 11.0)
-    - GTMAppAuth (< 5.0, >= 4.1.1)
+    - GTMAppAuth (~> 5.0)
     - GTMSessionFetcher/Core (~> 3.3)
-  - GoogleUtilities (8.0.2):
-    - GoogleUtilities/AppDelegateSwizzler (= 8.0.2)
-    - GoogleUtilities/Environment (= 8.0.2)
-    - GoogleUtilities/Logger (= 8.0.2)
-    - GoogleUtilities/MethodSwizzler (= 8.0.2)
-    - GoogleUtilities/Network (= 8.0.2)
-    - "GoogleUtilities/NSData+zlib (= 8.0.2)"
-    - GoogleUtilities/Privacy (= 8.0.2)
-    - GoogleUtilities/Reachability (= 8.0.2)
-    - GoogleUtilities/SwizzlerTestHelpers (= 8.0.2)
-    - GoogleUtilities/UserDefaults (= 8.0.2)
-  - GoogleUtilities/AppDelegateSwizzler (8.0.2):
+  - GoogleUtilities (8.1.0):
+    - GoogleUtilities/AppDelegateSwizzler (= 8.1.0)
+    - GoogleUtilities/Environment (= 8.1.0)
+    - GoogleUtilities/Logger (= 8.1.0)
+    - GoogleUtilities/MethodSwizzler (= 8.1.0)
+    - GoogleUtilities/Network (= 8.1.0)
+    - "GoogleUtilities/NSData+zlib (= 8.1.0)"
+    - GoogleUtilities/Privacy (= 8.1.0)
+    - GoogleUtilities/Reachability (= 8.1.0)
+    - GoogleUtilities/SwizzlerTestHelpers (= 8.1.0)
+    - GoogleUtilities/UserDefaults (= 8.1.0)
+  - GoogleUtilities/AppDelegateSwizzler (8.1.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
     - GoogleUtilities/Privacy
-  - GoogleUtilities/Environment (8.0.2):
+  - GoogleUtilities/Environment (8.1.0):
     - GoogleUtilities/Privacy
-  - GoogleUtilities/Logger (8.0.2):
+  - GoogleUtilities/Logger (8.1.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Privacy
-  - GoogleUtilities/MethodSwizzler (8.0.2):
+  - GoogleUtilities/MethodSwizzler (8.1.0):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
-  - GoogleUtilities/Network (8.0.2):
+  - GoogleUtilities/Network (8.1.0):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Privacy
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (8.0.2)":
+  - "GoogleUtilities/NSData+zlib (8.1.0)":
     - GoogleUtilities/Privacy
-  - GoogleUtilities/Privacy (8.0.2)
-  - GoogleUtilities/Reachability (8.0.2):
+  - GoogleUtilities/Privacy (8.1.0)
+  - GoogleUtilities/Reachability (8.1.0):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
-  - GoogleUtilities/SwizzlerTestHelpers (8.0.2):
+  - GoogleUtilities/SwizzlerTestHelpers (8.1.0):
     - GoogleUtilities/MethodSwizzler
-  - GoogleUtilities/UserDefaults (8.0.2):
+  - GoogleUtilities/UserDefaults (8.1.0):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
   - "gRPC-C++ (1.69.0)":
@@ -1439,8 +1446,8 @@ PODS:
     - gRPC-Core/Privacy (= 1.69.0)
   - gRPC-Core/Interface (1.69.0)
   - gRPC-Core/Privacy (1.69.0)
-  - GTMAppAuth (4.1.1):
-    - AppAuth/Core (~> 1.7)
+  - GTMAppAuth (5.0.0):
+    - AppAuth/Core (~> 2.0)
     - GTMSessionFetcher/Core (< 4.0, >= 3.3)
   - GTMSessionFetcher/Core (3.5.0)
   - HBDNavigationBar (1.9.8)
@@ -1471,19 +1478,19 @@ PODS:
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
   - YYModel (1.0.4)
-  - zawsdk_ios (0.4.1):
+  - zawsdk_ios (0.4.3):
     - Adjust (= 5.4.0)
     - FBSDKCoreKit (= 18.0.0)
     - FBSDKLoginKit (= 18.0.0)
     - FBSDKShareKit (= 18.0.0)
-    - FirebaseAnalytics (= 11.9.0)
-    - FirebaseAuth (= 11.9.0)
-    - FirebaseCore (= 11.9.0)
-    - FirebaseCoreExtension (= 11.9.0)
-    - FirebaseFirestore (= 11.9.0)
-    - FirebaseFirestoreInternal (= 11.9.0)
-    - GoogleSignIn (= 8.0.0)
-    - GoogleUtilities (= 8.0.2)
+    - FirebaseAnalytics (= 12.6.0)
+    - FirebaseAuth (= 12.6.0)
+    - FirebaseCore (= 12.6.0)
+    - FirebaseCoreExtension (= 12.6.0)
+    - FirebaseFirestore (= 12.6.0)
+    - FirebaseFirestoreInternal (= 12.6.0)
+    - GoogleSignIn (= 9.0.0)
+    - GoogleUtilities (= 8.1.0)
     - HBDNavigationBar (= 1.9.8)
     - Masonry (= 1.1.0)
     - MFSIdentifier (= 1.0.2)
@@ -1520,6 +1527,7 @@ SPEC REPOS:
     - FirebaseFirestoreInternal
     - FirebaseInstallations
     - FirebaseSharedSwift
+    - GoogleAdsOnDeviceConversion
     - GoogleAppMeasurement
     - GoogleSignIn
     - GoogleUtilities
@@ -1551,7 +1559,7 @@ SPEC CHECKSUMS:
   abseil: a05cc83bf02079535e17169a73c5be5ba47f714b
   Adjust: a5f881d0cbfe9a6df979b076dc7116fe19ece797
   AdjustSignature: 23b9e5d4adcadffc303bb6b410fde617dd88504f
-  AppAuth: d4f13a8fe0baf391b2108511793e4b479691fb73
+  AppAuth: 1c1a8afa7e12f2ec3a294d9882dfa5ab7d3cb063
   AppCheckCore: cc8fd0a3a230ddd401f326489c99990b013f0c4f
   BoringSSL-GRPC: dded2a44897e45f28f08ae87a55ee4bcd19bc508
   FBAEMKit: e34530df538b8eb8aeb53c35867715ba6c63ef0c
@@ -1559,23 +1567,24 @@ SPEC CHECKSUMS:
   FBSDKCoreKit_Basics: 017b6dc2a1862024815a8229e75661e627ac1e29
   FBSDKLoginKit: 5875762d1fe09ddcb05d03365d4f5dc34413843d
   FBSDKShareKit: 082d1b087d6481af36f8d8433542f25f2fc2c8dd
-  FirebaseAnalytics: 68aa43d0556fb7ea3957570f65417813851fcf95
-  FirebaseAppCheckInterop: 06fe5a3799278ae4667e6c432edd86b1030fa3df
-  FirebaseAuth: 8eebb43f35cd2c1bb1981e3cef27c45617b85316
-  FirebaseAuthInterop: 7087d7a4ee4bc4de019b2d0c240974ed5d89e2fd
-  FirebaseCore: 7cfcf7e8b33985c06478fd2b96e2f7101eb61a1c
-  FirebaseCoreExtension: b35fed507db40e6224fe36b163d34d18147da368
-  FirebaseCoreInternal: 154779013b85b4b290fdba38414df475f42e3096
-  FirebaseFirestore: b6d8e413b6e3ebc5e2d0beac2371c6aefb740ef3
-  FirebaseFirestoreInternal: 259eb0771fdf24d03d86d8f9692dda6df75cac28
-  FirebaseInstallations: c76d4931a485fc0cc2dc1d62d3ed0369846ea4b8
-  FirebaseSharedSwift: e17c654ef1f1a616b0b33054e663ad1035c8fd40
-  GoogleAppMeasurement: 7225e5d0cdd2687b5cefaa0d1a052fe51c448903
-  GoogleSignIn: ce8c89bb9b37fb624b92e7514cc67335d1e277e4
-  GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
+  FirebaseAnalytics: d0a97a0db6425e5a5d966340b87f92ca7b13a557
+  FirebaseAppCheckInterop: e2178171b4145013c7c1a3cc464d1d446d3a1896
+  FirebaseAuth: 613c463cb43545a7fd2cd99ade09b78ac472c544
+  FirebaseAuthInterop: db06756ef028006d034b6004dc0c37c24f7828d4
+  FirebaseCore: 0e38ad5d62d980a47a64b8e9301ffa311457be04
+  FirebaseCoreExtension: 032fd6f8509e591fda8cb76f6651f20d926b121f
+  FirebaseCoreInternal: 69bf1306a05b8ac43004f6cc1f804bb7b05b229e
+  FirebaseFirestore: 51ce079b9ddcaa481644164eda649d362c2a6396
+  FirebaseFirestoreInternal: 8b1d2b0a1b859b2ddbd63f448c416c5be7367405
+  FirebaseInstallations: 631b38da2e11a83daa4bfb482f79d286a5dfa7ad
+  FirebaseSharedSwift: 79f27fff0addd15c3de19b87fba426f3cc2c964f
+  GoogleAdsOnDeviceConversion: d68c69dd9581a0f5da02617b6f377e5be483970f
+  GoogleAppMeasurement: 3bf40aff49a601af5da1c3345702fcb4991d35ee
+  GoogleSignIn: c7f09cfbc85a1abf69187be091997c317cc33b77
+  GoogleUtilities: 00c88b9a86066ef77f0da2fab05f65d7768ed8e1
   "gRPC-C++": cc207623316fb041a7a3e774c252cf68a058b9e8
   gRPC-Core: 860978b7db482de8b4f5e10677216309b5ff6330
-  GTMAppAuth: f69bd07d68cd3b766125f7e072c45d7340dea0de
+  GTMAppAuth: 217a876b249c3c585a54fd6f73e6b58c4f5c4238
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
   HBDNavigationBar: f6aaedfb1ead68975b22b893ec61bfc1946711f5
   leveldb-library: cc8b8f8e013647a295ad3f8cd2ddf49a6f19be19
@@ -1592,8 +1601,8 @@ SPEC CHECKSUMS:
   SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
-  zawsdk_ios: 9a00b02d98b99563df5f1db1e0dfd6fdfa16425a
+  zawsdk_ios: be0599ed82ec50b07af20e24b08645cfcc8ef07c
 
-PODFILE CHECKSUM: b7df353c4dd59a79dda35d9c74e9c9d8947da396
+PODFILE CHECKSUM: c7fd88ea7dbfa78f0a2db14a679639e545f91b93
 
 COCOAPODS: 1.16.2

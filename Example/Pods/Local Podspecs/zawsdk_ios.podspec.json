@@ -1,6 +1,6 @@
 {
   "name": "zawsdk_ios",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "summary": "zawsdk for ios",
   "description": "zawsdk ios hahahahhahaah",
   "homepage": "https://github.com/bigbigbig/zawsdk_ios.git",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/bigbigbig/zawsdk_ios.git",
-    "tag": "0.4.1"
+    "tag": "0.4.3"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "15.0"
   },
   "source_files": "zawsdk_ios/Classes/**/*{h,m}",
   "resource_bundles": {
@@ -60,10 +60,10 @@
       "2.4.3"
     ],
     "GoogleUtilities": [
-      "8.0.2"
+      "8.1.0"
     ],
     "GoogleSignIn": [
-      "8.0.0"
+      "9.0.0"
     ],
     "FBSDKCoreKit": [
       "18.0.0"
@@ -75,22 +75,22 @@
       "18.0.0"
     ],
     "FirebaseCore": [
-      "11.9.0"
+      "12.6.0"
     ],
     "FirebaseCoreExtension": [
-      "11.9.0"
+      "12.6.0"
     ],
     "FirebaseFirestoreInternal": [
-      "11.9.0"
+      "12.6.0"
     ],
     "FirebaseAnalytics": [
-      "11.9.0"
+      "12.6.0"
     ],
     "FirebaseAuth": [
-      "11.9.0"
+      "12.6.0"
     ],
     "FirebaseFirestore": [
-      "11.9.0"
+      "12.6.0"
     ]
   }
 }
