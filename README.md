@@ -90,13 +90,13 @@ pod install
 - (IBAction)login:(id)sender {
     Boolean hasLogin = [[NSUserDefaults standardUserDefaults]boolForKey:@"hasLogin"];
     if(hasLogin){
-        [[ZAWSDK sharedInstance]quickLoginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+        [[ZAWSDK dInstance]quickLoginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
             NSLog(@"ZAWSDK quickLogin:::success:::%@", [loginModel description]);
         } failure:^(NSInteger code, NSString * _Nonnull message) {
             NSLog(@"ZAWSDK quickLogin:::failure:::%@", message);
         }];
     }else{
-        [[ZAWSDK sharedInstance]loginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+        [[ZAWSDK dInstance]loginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
             [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"hasLogin"];
             NSLog(@"ZAWSDK login:::success:::%@", [loginModel description]);
         } failure:^(NSInteger code, NSString * _Nonnull message) {
@@ -116,7 +116,7 @@ pod install
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[ZAWSDK sharedInstance]initWithChannel:@"8XXXX" appId:@"XX" appKey:@"XXXXXXXXXX" appleAppId:@"XXXXXXXX" policy_url:@"https://隐私链接" agreement_url:@"https://隐私链接" ad_token:@"XXXXXXXXXX" success:^{
+    [[ZAWSDK dInstance]initWithChannel:@"8XXXX" appId:@"XX" appKey:@"XXXXXXXXXX" appleAppId:@"XXXXXXXX" policy_url:@"https://隐私链接" agreement_url:@"https://隐私链接" ad_token:@"XXXXXXXXXX" success:^{
         
     }];
     return YES;
@@ -186,7 +186,7 @@ pod install
     NSString *orderId = [NSString stringWithFormat:@"%ld", (long)[datenow timeIntervalSince1970]];
     [[ZAWSDK sharedInstance]payFromViewController:self amount:@"1.0" serverId:@"s1" subject:@"goods" subjectId:product_id isTest:0 cpOrderId:orderId extraInfo:@"extra_info" success:^(ZAWPayModel * _Nonnull payModel) {
             NSLog(@"ZAWSDK pay:::success:::%@", [payModel description]);
-        } failure:^(NSInteger code, NSString * _Nonnull message) {
+    } failure:^(NSInteger code, NSString * _Nonnull message, NSString *cpOrderId) {
             NSLog(@"ZAWSDK pay:::failure:::%@", message);
         }];
 }
@@ -202,7 +202,7 @@ pod install
 #### 分享
 ```objective-c
 - (IBAction)share:(id)sender {
-    [[ZAWSDK sharedInstance]shareLinkToFacebook:@"https://下载页链接" fromViewController:self];
+    [[ZAWSDK sharedInstance]shareLinkToFacebook:@"https://www.baidu.com" quote:@"" fromViewController:self];
 }
 ```
 #### 上报adjust事件
