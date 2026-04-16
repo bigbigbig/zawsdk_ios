@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/ZAWApplePriceModel.h</key>
+		<data>
+		qDtpIi5sPOW9puU8PLoSWx7SZxU=
+		</data>
 		<key>Headers/ZAWLoginModel.h</key>
 		<data>
 		AHJgWdQFHC+zPw4OYg8/TzX3iuc=
@@ -14,11 +18,15 @@
 		</data>
 		<key>Headers/ZAWSDK.h</key>
 		<data>
-		h8SBnCcqFpK8gakoq7IutVqfT9I=
+		nv1PJtIzcxq0UMa2Mv1SVAy9tZc=
 		</data>
 		<key>Headers/ZAWSDKIOSFramework.h</key>
 		<data>
 		00MdXQUHP20oYQlT0mwR3xlCUsY=
+		</data>
+		<key>Headers/ZAWSDK_AppleSKU.h</key>
+		<data>
+		it2wNYhFPw7JT1l8xyLhav5edko=
 		</data>
 		<key>Headers/ZAWUserPayQuery.h</key>
 		<data>
@@ -39,6 +47,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/ZAWApplePriceModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qDtpIi5sPOW9puU8PLoSWx7SZxU=
+			</data>
+			<key>hash2</key>
+			<data>
+			lPIUqFWD8fiaDLH9bCUP5XavCAmyj0oOkED2HJ5yNus=
+			</data>
+		</dict>
 		<key>Headers/ZAWLoginModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -65,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h8SBnCcqFpK8gakoq7IutVqfT9I=
+			nv1PJtIzcxq0UMa2Mv1SVAy9tZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			aXXsgYnK3IpPGCSFwfA8sI0ZurrEZPt0tQg9+vTzQkA=
+			9WvZAEE9LUOk65xdxtUK30o8jueaeYPmzfnFTmYzcp4=
 			</data>
 		</dict>
 		<key>Headers/ZAWSDKIOSFramework.h</key>
@@ -81,6 +100,17 @@
 			<key>hash2</key>
 			<data>
 			EtJbo74FsYs80xcQnoUX+cWR85Drz+/1HTK3sNEvNYg=
+			</data>
+		</dict>
+		<key>Headers/ZAWSDK_AppleSKU.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			it2wNYhFPw7JT1l8xyLhav5edko=
+			</data>
+			<key>hash2</key>
+			<data>
+			HX4S9p9T4BLCZ8EFnagyqPoT9TQx+BARx6dfG5HEjtg=
 			</data>
 		</dict>
 		<key>Headers/ZAWUserPayQuery.h</key>

@@ -151,6 +151,7 @@ typedef NS_ENUM(NSUInteger, ZAWLoginWay) {
 - (NSString *)getAgreementUrl;
 + (NSInteger)getLastLoginType;
 + (NSInteger)getLastBindType;
+- (BOOL)getUserLogout;
 
 @end
 
