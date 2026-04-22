@@ -1478,7 +1478,7 @@ PODS:
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
   - YYModel (1.0.4)
-  - zawsdk_ios (0.4.7):
+  - zawsdk_ios (0.4.8):
     - Adjust/AdjustGoogleOdm (= 5.5.0)
     - FBSDKCoreKit (= 18.0.0)
     - FBSDKLoginKit (= 18.0.0)
@@ -1601,7 +1601,7 @@ SPEC CHECKSUMS:
   SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
-  zawsdk_ios: 8a388265284989da900178c0e05716d801784541
+  zawsdk_ios: 88eb603cefc601e6e13ef8941c7f515ff1d68376
 
 PODFILE CHECKSUM: c7fd88ea7dbfa78f0a2db14a679639e545f91b93
 
