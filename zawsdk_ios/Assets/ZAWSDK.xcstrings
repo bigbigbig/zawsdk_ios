@@ -2,6 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Account already exists" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -49,6 +50,7 @@
     },
     "Account Login" : {
       "comment" : "Account Login\n账号登录",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -95,6 +97,7 @@
       }
     },
     "Account not exist" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -141,6 +144,7 @@
       }
     },
     "Account or Password incorrect" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -245,7 +249,7 @@
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ผูกแล้ว"
+            "value" : "ผูกบัญชีและรหัสผ่าน"
           }
         },
         "zh_CN" : {
@@ -282,6 +286,7 @@
     },
     "Binding" : {
       "comment" : "Binding\n绑定账号",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -292,7 +297,7 @@
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ผูกแล้ว"
+            "value" : "การผูกบัญชี"
           }
         },
         "zh_CN" : {
@@ -422,47 +427,48 @@
       }
     },
     "Bound" : {
+      "comment" : "已绑定",
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Linked"
-          }
-        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Привязано"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผูกแล้ว"
+          }
+        },
         "zh_CN" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "已绑定"
           }
         },
         "zh_TW" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "已綁定"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "已绑定"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "已綁定"
           }
         },
         "zh-HK" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "已綁定"
           }
         }
@@ -475,6 +481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отменить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
           }
         },
         "zh_CN" : {
@@ -511,6 +523,7 @@
     },
     "Confirm" : {
       "comment" : "确认",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -558,6 +571,7 @@
     },
     "Current Login" : {
       "comment" : "Use Last Login",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -939,6 +953,7 @@
     },
     "Login" : {
       "comment" : "登录",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -1127,6 +1142,7 @@
     },
     "Password is not the same" : {
       "comment" : "两次密码输入不一致",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -1315,6 +1331,7 @@
     },
     "Please enter account" : {
       "comment" : "请输入账号",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -1362,6 +1379,7 @@
     },
     "Please enter information" : {
       "comment" : "请填写信息",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -1409,6 +1427,7 @@
     },
     "Please enter password" : {
       "comment" : "请输入密码",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -1456,6 +1475,7 @@
     },
     "Please enter password again" : {
       "comment" : "请再次输入密码",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -1503,6 +1523,7 @@
     },
     "Please read and agree to the User Agreement and Privacy Policy" : {
       "comment" : "请阅读并同意页面协议",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -1550,6 +1571,7 @@
     },
     "Register" : {
       "comment" : "注册",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -1591,6 +1613,150 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "註冊"
+          }
+        }
+      }
+    },
+    "Reset failed" : {
+      "comment" : "重置密码失败",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось сбросить пароль"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีเซ็ตรหัสผ่านไม่สำเร็จ"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置密码失败"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重設密碼失敗"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置密码失败"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重設密碼失敗"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重設密碼失敗"
+          }
+        }
+      }
+    },
+    "Reset Password" : {
+      "comment" : "重置密码",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить пароль"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีเซ็ตรหัสผ่าน"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置密码"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重設密碼"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置密码"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重設密碼"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重設密碼"
+          }
+        }
+      }
+    },
+    "Reset successful" : {
+      "comment" : "重置密码成功",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пароль успешно сброшен"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีเซ็ตรหัสผ่านสำเร็จ"
+          }
+        },
+        "zh_CN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置密码成功"
+          }
+        },
+        "zh_TW" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重設密碼成功"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置密码成功"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重設密碼成功"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重設密碼成功"
           }
         }
       }
@@ -1644,6 +1810,7 @@
     },
     "Switch Account" : {
       "comment" : "切换账号",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -1704,6 +1871,12 @@
             "value" : "Произошла ошибка, пожалуйста, выйдите и войдите в игру снова"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกิดข้อผิดพลาดบางอย่าง กรุณาออกจากระบบแล้วเข้าสู่ระบบเกมอีกครั้ง."
+          }
+        },
         "zh_CN" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1749,6 +1922,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось получить информацию от стороннего сервиса, пожалуйста, авторизуйтесь снова."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การดึงข้อมูลบุคคลที่สามล้มเหลว กรุณาอนุญาตอีกครั้ง."
           }
         },
         "zh_CN" : {
@@ -1798,6 +1977,12 @@
             "value" : "Этот сторонний аккаунт уже привязан к другому пользователю. Повторное связывание запрещено."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บัญชีบุคคลที่สามนี้ถูกเชื่อมโยงกับบัญชีผู้ใช้อื่นแล้ว ไม่อนุญาตให้ผูกซ้ำ."
+          }
+        },
         "zh_CN" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1837,6 +2022,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отвязать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิกการผูก"
           }
         },
         "zh_CN" : {
@@ -1886,6 +2077,12 @@
             "value" : "Отвязка доступна при наличии минимум двух способов входа."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณสามารถปลดผูกวิธีการเข้าสู่ระบบได้ก็ต่อเมื่อมีวิธีการเข้าสู่ระบบตั้งแต่สองวิธีขึ้นไปที่เชื่อมโยงกับบัญชีของคุณ."
+          }
+        },
         "zh_CN" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1933,6 +2130,12 @@
             "value" : "Не удалось отвязать"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปลดผูกไม่สำเร็จ"
+          }
+        },
         "zh_CN" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1978,6 +2181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вы выполняете операцию отвязки, это может привести к потере аккаунта."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณกำลังดำเนินการปลดผูกบัญชี การปลดผูกอาจส่งผลให้บัญชีของคุณสูญหายได้."
           }
         },
         "zh_CN" : {
@@ -2061,6 +2270,7 @@
     },
     "User Center" : {
       "comment" : "用户中心",
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -2154,6 +2364,7 @@
       }
     },
     "Verification failed, please log in again" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ru" : {
           "stringUnit" : {
@@ -2253,6 +2464,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Внимание"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำเตือน"
           }
         },
         "zh_CN" : {
