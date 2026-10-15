@@ -90,13 +90,13 @@ pod install
 - (IBAction)login:(id)sender {
     Boolean hasLogin = [[NSUserDefaults standardUserDefaults]boolForKey:@"hasLogin"];
     if(hasLogin){
-        [[ZAWSDK dInstance]quickLoginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+        [[ZAWSDK sharedInstance]quickLoginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
             NSLog(@"ZAWSDK quickLogin:::success:::%@", [loginModel description]);
         } failure:^(NSInteger code, NSString * _Nonnull message) {
             NSLog(@"ZAWSDK quickLogin:::failure:::%@", message);
         }];
     }else{
-        [[ZAWSDK dInstance]loginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
+        [[ZAWSDK sharedInstance]loginFromViewController:self success:^(ZAWLoginModel * _Nonnull loginModel) {
             [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"hasLogin"];
             NSLog(@"ZAWSDK login:::success:::%@", [loginModel description]);
         } failure:^(NSInteger code, NSString * _Nonnull message) {
@@ -116,7 +116,7 @@ pod install
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[ZAWSDK dInstance]initWithChannel:@"8XXXX" appId:@"XX" appKey:@"XXXXXXXXXX" appleAppId:@"XXXXXXXX" policy_url:@"https://隐私链接" agreement_url:@"https://隐私链接" ad_token:@"XXXXXXXXXX" success:^{
+    [[ZAWSDK sharedInstance]initWithChannel:@"8XXXX" appId:@"XX" appKey:@"XXXXXXXXXX" appleAppId:@"XXXXXXXX" policy_url:@"https://隐私链接" agreement_url:@"https://隐私链接" ad_token:@"XXXXXXXXXX" success:^{
         
     }];
     return YES;
